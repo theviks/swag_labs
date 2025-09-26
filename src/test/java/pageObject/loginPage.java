@@ -1,0 +1,34 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+
+public class loginPage extends BasePage{
+
+	public loginPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	@FindBy(xpath="//input[@id='user-name']") WebElement userName;
+	@FindBy(xpath="//input[@id='password']") WebElement password;
+	@FindBy(xpath="//input[@id='login-button']") WebElement loginBtn;
+	@FindBy(xpath="//span[@class='title']") WebElement verify;
+	
+	public void enterUserName(String usrN) {
+		userName.sendKeys(usrN);
+	}
+	
+	public void enterPassword(String pass) {
+		password.sendKeys(pass);
+	}
+	
+	public void clickLogin() {
+		loginBtn.click();
+	}
+	
+	public boolean loginVerification() {
+		return verify.isDisplayed();
+	}
+}
