@@ -11,6 +11,7 @@ public class loginPage extends BasePage{
 		super(driver);
 	}
 	
+	
 	@FindBy(xpath="//input[@id='user-name']") WebElement userName;
 	@FindBy(xpath="//input[@id='password']") WebElement password;
 	@FindBy(xpath="//input[@id='login-button']") WebElement loginBtn;
@@ -30,5 +31,11 @@ public class loginPage extends BasePage{
 	
 	public boolean loginVerification() {
 		return verify.isDisplayed();
+	}
+	
+	/*--------------------Invalid Password-----------------------------*/
+	@FindBy(xpath="//h3[contains(text(),'Epic sadface: Username and password do not match a')]") WebElement verifyWrongPass;
+	public boolean verifyPass() {
+		return verifyWrongPass.isDisplayed();
 	}
 }

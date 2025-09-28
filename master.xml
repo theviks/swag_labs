@@ -10,7 +10,8 @@
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_L1"/>
+      <!--<class name="testCases.TC_L1"/>-->
+      <class name="testCases.TC_L2"/>
     </classes>
   </test> <!-- Test -->
   
