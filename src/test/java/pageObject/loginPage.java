@@ -38,4 +38,9 @@ public class loginPage extends BasePage{
 	public boolean verifyPass() {
 		return verifyWrongPass.isDisplayed();
 	}
+	/*----------------------Locked Out User----------------------------*/
+	@FindBy(xpath="//h3[contains(text(),'Epic sadface: Sorry, this user has been locked out')]") WebElement verifyLockedUser;
+	public boolean lockesVerify() {
+		return verifyLockedUser.isDisplayed();
+	}
 }

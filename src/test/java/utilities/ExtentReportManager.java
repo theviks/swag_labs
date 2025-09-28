@@ -88,7 +88,7 @@ public class ExtentReportManager implements ITestListener {
 			String imgPath = new BaseClass().captureScreen(result.getName()); // we are using captureScreen method from BaseClass by creating an object, but not storing it in new variable
 			test.addScreenCaptureFromPath(imgPath);
 			
-		} catch (Exception e1) {
+		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 	}
