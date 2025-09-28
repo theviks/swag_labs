@@ -43,4 +43,9 @@ public class loginPage extends BasePage{
 	public boolean lockesVerify() {
 		return verifyLockedUser.isDisplayed();
 	}
+	/*----------------------Empty Fields--------------------------------*/
+	@FindBy(xpath="//h3[normalize-space()='Epic sadface: Username is required']") WebElement emptyVerify;
+	public boolean verifyEmpty() {
+		return emptyVerify.isDisplayed();
+	}
 }

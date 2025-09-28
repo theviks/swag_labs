@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-27T21:40:29 GMT-04:00" name="Suite" finished-at="2025-09-27T21:40:38 GMT-04:00" duration-ms="9156">
+  <suite started-at="2025-09-28T10:14:08 GMT-04:00" name="Suite" finished-at="2025-09-28T10:14:19 GMT-04:00" duration-ms="10803">
     <groups>
     </groups>
-    <test started-at="2025-09-27T21:40:29 GMT-04:00" name="Test" finished-at="2025-09-27T21:40:38 GMT-04:00" duration-ms="9156">
+    <test started-at="2025-09-28T10:14:08 GMT-04:00" name="Test" finished-at="2025-09-28T10:14:19 GMT-04:00" duration-ms="10803">
       <class name="testCases.TC_L2">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_L2@74e52ef6]" started-at="2025-09-27T21:40:34 GMT-04:00" name="setUp" finished-at="2025-09-27T21:40:35 GMT-04:00" duration-ms="1871" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_L2@1a677343]" started-at="2025-09-28T10:14:13 GMT-04:00" name="setUp" finished-at="2025-09-28T10:14:14 GMT-04:00" duration-ms="1562" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithInvalidPassword()[pri:0, instance:testCases.TC_L2@74e52ef6]" started-at="2025-09-27T21:40:35 GMT-04:00" name="loginWithInvalidPassword" finished-at="2025-09-27T21:40:36 GMT-04:00" duration-ms="477" status="PASS">
+        <test-method signature="loginWithInvalidPassword()[pri:0, instance:testCases.TC_L2@1a677343]" started-at="2025-09-28T10:14:14 GMT-04:00" name="loginWithInvalidPassword" finished-at="2025-09-28T10:14:15 GMT-04:00" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_L2@74e52ef6]" started-at="2025-09-27T21:40:36 GMT-04:00" name="tearDown" finished-at="2025-09-27T21:40:36 GMT-04:00" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_L2@1a677343]" started-at="2025-09-28T10:14:15 GMT-04:00" name="tearDown" finished-at="2025-09-28T10:14:15 GMT-04:00" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_L2 -->
       <class name="testCases.TC_L1">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_L1@3b0090a4]" started-at="2025-09-27T21:40:30 GMT-04:00" name="setUp" finished-at="2025-09-27T21:40:33 GMT-04:00" duration-ms="2878" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_L1@1fa121e2]" started-at="2025-09-28T10:14:09 GMT-04:00" name="setUp" finished-at="2025-09-28T10:14:12 GMT-04:00" duration-ms="3276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,17 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:testCases.TC_L1@3b0090a4]" started-at="2025-09-27T21:40:33 GMT-04:00" name="login" finished-at="2025-09-27T21:40:33 GMT-04:00" duration-ms="571" status="PASS">
+        <test-method signature="login()[pri:0, instance:testCases.TC_L1@1fa121e2]" started-at="2025-09-28T10:14:12 GMT-04:00" name="login" finished-at="2025-09-28T10:14:12 GMT-04:00" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_L1@3b0090a4]" started-at="2025-09-27T21:40:33 GMT-04:00" name="tearDown" finished-at="2025-09-27T21:40:34 GMT-04:00" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_L1@1fa121e2]" started-at="2025-09-28T10:14:12 GMT-04:00" name="tearDown" finished-at="2025-09-28T10:14:13 GMT-04:00" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_L1 -->
-      <class name="testCases.TC_L3">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_L3@6ed3ccb2]" started-at="2025-09-27T21:40:36 GMT-04:00" name="setUp" finished-at="2025-09-27T21:40:38 GMT-04:00" duration-ms="1384" status="PASS">
+      <class name="testCases.TC_L4">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_L4@489115ef]" started-at="2025-09-28T10:14:17 GMT-04:00" name="setUp" finished-at="2025-09-28T10:14:18 GMT-04:00" duration-ms="1355" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithLockedUser()[pri:0, instance:testCases.TC_L3@6ed3ccb2]" started-at="2025-09-27T21:40:38 GMT-04:00" name="loginWithLockedUser" finished-at="2025-09-27T21:40:38 GMT-04:00" duration-ms="484" status="PASS">
+        <test-method signature="emptyField()[pri:0, instance:testCases.TC_L4@489115ef]" started-at="2025-09-28T10:14:18 GMT-04:00" name="emptyField" finished-at="2025-09-28T10:14:19 GMT-04:00" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_L4@489115ef]" started-at="2025-09-28T10:14:19 GMT-04:00" name="tearDown" finished-at="2025-09-28T10:14:19 GMT-04:00" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_L4 -->
+      <class name="testCases.TC_L3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_L3@15de0b3c]" started-at="2025-09-28T10:14:15 GMT-04:00" name="setUp" finished-at="2025-09-28T10:14:16 GMT-04:00" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithLockedUser()[pri:0, instance:testCases.TC_L3@15de0b3c]" started-at="2025-09-28T10:14:16 GMT-04:00" name="loginWithLockedUser" finished-at="2025-09-28T10:14:17 GMT-04:00" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithLockedUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_L3@6ed3ccb2]" started-at="2025-09-27T21:40:38 GMT-04:00" name="tearDown" finished-at="2025-09-27T21:40:38 GMT-04:00" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_L3@15de0b3c]" started-at="2025-09-28T10:14:17 GMT-04:00" name="tearDown" finished-at="2025-09-28T10:14:17 GMT-04:00" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

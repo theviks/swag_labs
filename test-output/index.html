@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_L4" class="method navigator-link" hash-for-method="emptyField">emptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_L1" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
@@ -128,6 +133,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_L4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyField">
+                  </a> <!-- emptyField -->
+                  <span class="method-name">emptyField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -193,6 +213,7 @@
       &lt;class name=&quot;testCases.TC_L1&quot;/&gt;
       &lt;class name=&quot;testCases.TC_L2&quot;/&gt;
       &lt;class name=&quot;testCases.TC_L3&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_L4&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -206,7 +227,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,19 +253,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'testCases.TC_L1')
-data.setCell(0, 3, 571);
+data.setCell(0, 3, 461);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginWithLockedUser')
-data.setCell(1, 2, 'testCases.TC_L3')
-data.setCell(1, 3, 484);
+data.setCell(1, 1, 'loginWithInvalidPassword')
+data.setCell(1, 2, 'testCases.TC_L2')
+data.setCell(1, 3, 456);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginWithInvalidPassword')
-data.setCell(2, 2, 'testCases.TC_L2')
-data.setCell(2, 3, 477);
+data.setCell(2, 1, 'loginWithLockedUser')
+data.setCell(2, 2, 'testCases.TC_L3')
+data.setCell(2, 3, 445);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'emptyField')
+data.setCell(3, 2, 'testCases.TC_L4')
+data.setCell(3, 3, 250);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -282,41 +307,56 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">2937 ms</span>
+                <span class="method-start">3319 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3522 ms</span>
+                <span class="method-start">3793 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_L2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(Windows, chrome)</span>
-                <span class="method-start">3851 ms</span>
+                <span class="method-start">4107 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginWithInvalidPassword</span>
-                <span class="method-start">5723 ms</span>
+                <span class="method-start">5671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6201 ms</span>
+                <span class="method-start">6128 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_L3</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(Windows, chrome)</span>
-                <span class="method-start">6446 ms</span>
+                <span class="method-start">6325 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginWithLockedUser</span>
-                <span class="method-start">7831 ms</span>
+                <span class="method-start">7858 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8317 ms</span>
+                <span class="method-start">8304 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_L4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Windows, chrome)</span>
+                <span class="method-start">8540 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emptyField</span>
+                <span class="method-start">9896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10148 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

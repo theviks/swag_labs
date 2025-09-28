@@ -13,6 +13,7 @@
       <class name="testCases.TC_L1"/>
       <class name="testCases.TC_L2"/>
       <class name="testCases.TC_L3"/>
+      <class name="testCases.TC_L4"/>
     </classes>
   </test> <!-- Test -->
   

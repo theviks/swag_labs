@@ -90,7 +90,7 @@ public class BaseClass {
 		driver.quit();
 	}
 	
-	public String captureScreen(String tname) {
+	public String captureScreen(String tname) throws IOException {
 		
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot takeScreenshot = (TakesScreenshot) driver;
