@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-29T20:19:17 GMT-04:00" name="Suite" finished-at="2025-09-29T20:19:21 GMT-04:00" duration-ms="3966">
+  <suite started-at="2025-09-30T23:47:38 GMT-04:00" name="Suite" finished-at="2025-09-30T23:47:44 GMT-04:00" duration-ms="6185">
     <groups>
     </groups>
-    <test started-at="2025-09-29T20:19:17 GMT-04:00" name="Test" finished-at="2025-09-29T20:19:21 GMT-04:00" duration-ms="3966">
-      <class name="testCases.TC_P1">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_P1@185a6e9]" started-at="2025-09-29T20:19:17 GMT-04:00" name="setUp" finished-at="2025-09-29T20:19:20 GMT-04:00" duration-ms="2359" status="PASS">
+    <test started-at="2025-09-30T23:47:38 GMT-04:00" name="Test" finished-at="2025-09-30T23:47:44 GMT-04:00" duration-ms="6185">
+      <class name="testCases.TC_P2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_P2@185a6e9]" started-at="2025-09-30T23:47:38 GMT-04:00" name="setUp" finished-at="2025-09-30T23:47:42 GMT-04:00" duration-ms="4119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="prodctListVerification()[pri:0, instance:testCases.TC_P1@185a6e9]" started-at="2025-09-29T20:19:20 GMT-04:00" name="prodctListVerification" finished-at="2025-09-29T20:19:21 GMT-04:00" duration-ms="919" status="PASS">
+        <test-method signature="aToZsorting()[pri:0, instance:testCases.TC_P2@185a6e9]" started-at="2025-09-30T23:47:42 GMT-04:00" name="aToZsorting" finished-at="2025-09-30T23:47:44 GMT-04:00" duration-ms="1206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- prodctListVerification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_P1@185a6e9]" started-at="2025-09-29T20:19:21 GMT-04:00" name="tearDown" finished-at="2025-09-29T20:19:21 GMT-04:00" duration-ms="289" status="PASS">
+        </test-method> <!-- aToZsorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_P2@185a6e9]" started-at="2025-09-30T23:47:44 GMT-04:00" name="tearDown" finished-at="2025-09-30T23:47:44 GMT-04:00" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_P1 -->
+      </class> <!-- testCases.TC_P2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -5,13 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_L1">
+      <class name="testCases.TC_P2">
         <methods>
-          <include name="login"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="aToZsorting"/>
         </methods>
-      </class> <!-- testCases.TC_L1 -->
+      </class> <!-- testCases.TC_P2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
