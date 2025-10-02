@@ -17,6 +17,8 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 
+	Select sc;
+	
 	/*-------------------------------------------------Verify All Products are displayed---------------------------------------------------*/
 	@FindBy(xpath="//div[@class='inventory_item']") List<WebElement> products;
 	
@@ -40,7 +42,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//div[@class='inventory_item_name ']") List<WebElement> pNames;
 	public void vf() {
 		filter.click();
-		Select sc = new Select(filterOptions);
+		sc = new Select(filterOptions);
 		sc.selectByValue("az");
 		
 		List<String> actualNames = new ArrayList<>();
@@ -54,4 +56,25 @@ public class HomePage extends BasePage {
 		
 	}
 	
+	/*-------------------------------------------------Verify Sorting Functionality Price(low-high)---------------------------------------------------*/
+	@FindBy(xpath="//div[@class='inventory_list']//div[@class='inventory_item_price']") List<WebElement> pPrices;
+	
+	public void vfPrice() {
+		filter.click();	
+		sc = new Select(filterOptions);
+		sc.selectByValue("lohi");
+		
+		List<Double> actualPrice = new ArrayList<>();
+		for(WebElement pP : pPrices) {
+			String priceText = pP.getText().replace("$", "").trim();
+			actualPrice.add(Double.parseDouble(priceText));
+		}
+		
+		
+		List<Double> expPrice = new ArrayList<>(actualPrice);
+		Collections.sort(expPrice);
+		
+		
+		Assert.assertEquals(actualPrice, expPrice,"Price are not sorted properly");
+	}
 }
