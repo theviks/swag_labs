@@ -1,3 +1,12 @@
-2025-09-29 20:19:20 INFO  TC_P1:14 - *** Starting Testing for TC_P1 ***
-2025-09-29 20:19:20 INFO  TC_P1:21 - *** Checking all products displayed for TC_P1 ***
-2025-09-29 20:19:21 INFO  TC_P1:27 - *** Completed Testing for TC_P1 ***
+2025-10-02 11:45:04 INFO  TC_P2:14 - *** Starting Test Case: TC_P2 (A to Z Sorting) ***
+2025-10-02 11:45:05 INFO  TC_P2:21 - Login successful with user: standard_user
+2025-10-02 11:45:05 INFO  TC_P2:24 - Verifying functionality for TC_P2: A to Z Sorting
+2025-10-02 11:45:05 INFO  TC_P2:27 - A to Z sorting verification completed successfully.
+2025-10-02 11:45:05 INFO  TC_P2:29 - *** Test Case: TC_P2 PASSED ***
+2025-10-02 11:45:05 INFO  TC_P2:35 - *** Ending Test Case: TC_P2 ***
+2025-10-02 11:45:07 INFO  TC_P3:13 - *** Starting Test Case : TC_P3 (Low to High Price Sorting) ***
+2025-10-02 11:45:08 INFO  TC_P3:20 - Login successful with user: standard_user
+2025-10-02 11:45:08 INFO  TC_P3:23 - Verifying functionality for TC_P3: Price Low to High Sorting
+2025-10-02 11:45:09 INFO  TC_P3:26 - Price Low to High sorting verification completed Successfully
+2025-10-02 11:45:09 INFO  TC_P3:28 - *** Test Case: TC_P3 Passed ***
+2025-10-02 11:45:09 INFO  TC_P3:34 - *** Ending Test Case: TC_P3 ***

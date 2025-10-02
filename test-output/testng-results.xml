@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-02T11:26:47 GMT-04:00" name="Suite" finished-at="2025-10-02T11:26:52 GMT-04:00" duration-ms="4558">
+  <suite started-at="2025-10-02T11:44:59 GMT-04:00" name="Suite" finished-at="2025-10-02T11:45:09 GMT-04:00" duration-ms="9597">
     <groups>
     </groups>
-    <test started-at="2025-10-02T11:26:47 GMT-04:00" name="Test" finished-at="2025-10-02T11:26:52 GMT-04:00" duration-ms="4558">
-      <class name="testCases.TC_P3">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_P3@185a6e9]" started-at="2025-10-02T11:26:48 GMT-04:00" name="setUp" finished-at="2025-10-02T11:26:50 GMT-04:00" duration-ms="2648" status="PASS">
+    <test started-at="2025-10-02T11:44:59 GMT-04:00" name="Test" finished-at="2025-10-02T11:45:09 GMT-04:00" duration-ms="9597">
+      <class name="testCases.TC_P2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_P2@9d5509a]" started-at="2025-10-02T11:45:00 GMT-04:00" name="setUp" finished-at="2025-10-02T11:45:04 GMT-04:00" duration-ms="3858" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="priceSorting()[pri:0, instance:testCases.TC_P3@185a6e9]" started-at="2025-10-02T11:26:50 GMT-04:00" name="priceSorting" finished-at="2025-10-02T11:26:52 GMT-04:00" duration-ms="1040" status="PASS">
+        <test-method signature="aToZsorting()[pri:0, instance:testCases.TC_P2@9d5509a]" started-at="2025-10-02T11:45:04 GMT-04:00" name="aToZsorting" finished-at="2025-10-02T11:45:05 GMT-04:00" duration-ms="1315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- priceSorting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_P3@185a6e9]" started-at="2025-10-02T11:26:52 GMT-04:00" name="tearDown" finished-at="2025-10-02T11:26:52 GMT-04:00" duration-ms="322" status="PASS">
+        </test-method> <!-- aToZsorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_P2@9d5509a]" started-at="2025-10-02T11:45:05 GMT-04:00" name="tearDown" finished-at="2025-10-02T11:45:06 GMT-04:00" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_P2 -->
+      <class name="testCases.TC_P3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_P3@4116aac9]" started-at="2025-10-02T11:45:06 GMT-04:00" name="setUp" finished-at="2025-10-02T11:45:07 GMT-04:00" duration-ms="1630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lowToHighPriceSorting()[pri:0, instance:testCases.TC_P3@4116aac9]" started-at="2025-10-02T11:45:07 GMT-04:00" name="lowToHighPriceSorting" finished-at="2025-10-02T11:45:09 GMT-04:00" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowToHighPriceSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_P3@4116aac9]" started-at="2025-10-02T11:45:09 GMT-04:00" name="tearDown" finished-at="2025-10-02T11:45:09 GMT-04:00" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
