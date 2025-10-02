@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_P2" class="method navigator-link" hash-for-method="aToZsorting">aToZsorting</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_P3" class="method navigator-link" hash-for-method="lowToHighPriceSorting">lowToHighPriceSorting</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_P4" class="method navigator-link" hash-for-method="verifyProduct">verifyProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -126,29 +121,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_P3</span>
+              <span class="class-name">testCases.TC_P4</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="lowToHighPriceSorting">
-                  </a> <!-- lowToHighPriceSorting -->
-                  <span class="method-name">lowToHighPriceSorting</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_P2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="aToZsorting">
-                  </a> <!-- aToZsorting -->
-                  <span class="method-name">aToZsorting</span>
+                  <a name="verifyProduct">
+                  </a> <!-- verifyProduct -->
+                  <span class="method-name">verifyProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,8 +150,7 @@
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_P2&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_P3&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_P4&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -185,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'aToZsorting')
-data.setCell(0, 2, 'testCases.TC_P2')
-data.setCell(0, 3, 1315);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'lowToHighPriceSorting')
-data.setCell(1, 2, 'testCases.TC_P3')
-data.setCell(1, 3, 1222);
+data.setCell(0, 1, 'verifyProduct')
+data.setCell(0, 2, 'testCases.TC_P4')
+data.setCell(0, 3, 561);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 561 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -250,33 +225,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_P2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_P4</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">aToZsorting</span>
-                <span class="method-start">3878 ms</span>
+                <span class="method-name">verifyProduct</span>
+                <span class="method-start">4989 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5211 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_P3</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp(Windows, chrome)</span>
-                <span class="method-start">5635 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">lowToHighPriceSorting</span>
-                <span class="method-start">7267 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">8492 ms</span>
+                <span class="method-start">5561 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

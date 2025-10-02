@@ -77,4 +77,18 @@ public class HomePage extends BasePage {
 		
 		Assert.assertEquals(actualPrice, expPrice,"Price are not sorted properly");
 	}
+	/*---------------------------------------------------Verify Product details Navigation-----------------------------------------------------------*/
+	@FindBy(xpath="//div[normalize-space()='Sauce Labs Backpack']") WebElement product;
+	@FindBy(xpath="//img[@alt='Sauce Labs Backpack']") WebElement verifyProductImg;
+	@FindBy(xpath="//div[@class='inventory_details_name large_size']") WebElement productNameVerify;
+	
+	public void verifyNavProduct() {
+		product.click();
+		Assert.assertEquals(productNameVerify.getText(), "Sauce Labs Backpack");
+		Assert.assertEquals(verifyProductImg.isDisplayed(),true);
+		
+	}
+	
+	
+	
 }
