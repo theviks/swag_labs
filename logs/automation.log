@@ -4,3 +4,15 @@
 2025-10-05 18:22:59 INFO  TC_C1:26 - Cart count displayed correctly
 2025-10-05 18:22:59 INFO  TC_C1:27 - *** Test Case: TC_C1 Passed ***
 2025-10-05 18:22:59 INFO  TC_C1:33 - *** Ending Test Case: TC_C1 ***
+2025-10-05 19:24:31 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
+2025-10-05 19:24:32 INFO  TC_C2:21 - Login successful with user: standard_user
+2025-10-05 19:24:32 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
+2025-10-05 19:24:32 INFO  TC_C2:29 - Removing Product SuccessFull
+2025-10-05 19:24:32 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
+2025-10-05 19:24:32 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
+2025-10-05 19:33:11 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 (Verify adding Multiple product to cart ***
+2025-10-05 19:33:11 INFO  TC_C3:20 - Login Successful with user: standard_user
+2025-10-05 19:33:11 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
+2025-10-05 19:33:11 INFO  TC_C3:27 - Cart count displayed correctly
+2025-10-05 19:33:11 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
+2025-10-05 19:33:11 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***

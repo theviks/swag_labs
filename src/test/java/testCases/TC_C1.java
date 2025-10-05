@@ -23,6 +23,7 @@ public class TC_C1 extends BaseClass {
 		logger.info("verify functionality for TC_C1: Verify addng a product to cart");
 		HomePage hp =  new HomePage(driver);
 		hp.addToCart();
+		hp.verifyCartCount();
 		logger.info("Cart count displayed correctly");
 		logger.info("*** Test Case: TC_C1 Passed ***");
 		}catch(Exception e) {

@@ -18,7 +18,9 @@
      <!--  <class name ="testCases.TC_P2"/> -->
      <!--  <class name ="testCases.TC_P3"/> -->
      <!--  <class name ="testCases.TC_P4"/> -->
-     <class name ="testCases.TC_C1"/> 
+     <!--  <class name ="testCases.TC_C1"/> -->
+      <!--  <class name ="testCases.TC_C2"/> -->
+      <class name ="testCases.TC_C3"/>
     </classes>
   </test> <!-- Test -->
   

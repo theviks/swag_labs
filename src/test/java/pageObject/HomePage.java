@@ -100,11 +100,13 @@ public class HomePage extends BasePage {
 	public void addToCart() {
 		for(WebElement atc : addToCartBtn) {
 			atc.click();
+			break;
 			}
-		myWait.until(ExpectedConditions.visibilityOf(cartCount));
 		
-		System.out.println(cartCount.getText());
-		Assert.assertEquals(cartCount.getText(), "6");
+		myWait.until(ExpectedConditions.visibilityOf(cartCount));
+	}
+	public void verifyCartCount() {
+		Assert.assertEquals(cartCount.getText(), "1");
 	}
 	
 }
