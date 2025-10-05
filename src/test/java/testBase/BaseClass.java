@@ -16,6 +16,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -62,7 +63,21 @@ public class BaseClass {
 		
 		//Browser
 		switch(br.toLowerCase()) {
-		case "chrome" : capabilities.setBrowserName("chrome"); break;
+		case "chrome" : 
+			ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--incognito");
+            chromeOptions.addArguments("--disable-save-password-bubble");
+            chromeOptions.addArguments("--disable-features=PasswordManagerOnboarding,PasswordManagerUI");
+            chromeOptions.addArguments("--disable-notifications");
+            chromeOptions.addArguments("--disable-infobars");
+            chromeOptions.addArguments("--start-maximized");
+            chromeOptions.addArguments("--disable-popup-blocking");
+            chromeOptions.addArguments("--disable-geolocation");
+            chromeOptions.addArguments("--disable-blink-features=AutomationControlled");
+            capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+            capabilities.setBrowserName("chrome");
+            break;
+			
 		case "edge" : capabilities.setBrowserName("MicrosoftEdge"); break;
 		case "firefox" : capabilities.setBrowserName("firefox"); break;
 		default : System.out.println(" NO MATCHING BROWSER"); return;
@@ -73,7 +88,20 @@ public class BaseClass {
 	//For Local Environment Execution
 	if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
 		switch(br.toLowerCase()) {
-		case "chrome" : driver = new ChromeDriver(); break;
+		case "chrome" :
+			
+			ChromeOptions options = new ChromeOptions();
+            options.addArguments("--incognito");
+            options.addArguments("--disable-save-password-bubble");
+            options.addArguments("--disable-features=PasswordManagerOnboarding,PasswordManagerUI");
+            options.addArguments("--disable-notifications");
+            options.addArguments("--disable-infobars");
+            options.addArguments("--start-maximized");
+            options.addArguments("--disable-popup-blocking");
+            options.addArguments("--disable-geolocation");
+            options.addArguments("--disable-blink-features=AutomationControlled");
+            
+			driver = new ChromeDriver(options); break;
 		case "edge" : driver = new EdgeDriver(); break;
 		case "firefox" : driver = new FirefoxDriver(); break;
 		default : System.out.println("Invalid Browser name"); return;

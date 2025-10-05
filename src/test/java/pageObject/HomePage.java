@@ -1,14 +1,18 @@
 package pageObject;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.apache.poi.ss.formula.functions.LinearRegressionFunction.FUNCTION;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class HomePage extends BasePage {
@@ -17,6 +21,7 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 
+	WebDriverWait myWait = new WebDriverWait(driver, Duration.ofSeconds(5));
 	Select sc;
 	
 	/*-------------------------------------------------Verify All Products are displayed---------------------------------------------------*/
@@ -88,7 +93,19 @@ public class HomePage extends BasePage {
 		Assert.assertEquals(verifyProductImg.isDisplayed(),true);
 		
 	}
+	/*---------------------------------------------------Verify adding a product to cart---------------------------------------------------------------*/
 	
+	@FindBy(xpath="//button[contains(@class,'btn btn_primary btn_small btn_inventory ')]") List<WebElement> addToCartBtn;
+	@FindBy(xpath="//div[@id='shopping_cart_container']//span") WebElement cartCount;
 	
+	public void addToCart() {
+		for(WebElement atc : addToCartBtn) {
+			atc.click();
+			}
+		myWait.until(ExpectedConditions.visibilityOf(cartCount));
+		
+		System.out.println(cartCount.getText());
+		Assert.assertEquals(cartCount.getText(), "6");
+	}
 	
 }
