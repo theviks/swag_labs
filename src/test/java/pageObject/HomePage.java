@@ -108,5 +108,17 @@ public class HomePage extends BasePage {
 	public void verifyCartCount() {
 		Assert.assertEquals(cartCount.getText(), "1");
 	}
+	/*-----------------------------------------To OPen Cart Page--------------------------------------------------------------------------*/
+	@FindBy(xpath="//button[contains(@class,'btn btn_primary btn_small btn_inventory ')]") List<WebElement> addCartBtn;
+	public void addProductToCart() {
+		for(WebElement atc : addToCartBtn) {
+			atc.click();
+			}
+	}
+	
+	@FindBy(xpath="//a[@class='shopping_cart_link']") WebElement cartBtn;
+	public void cartPage() {
+		cartBtn.click();
+	}
 	
 }

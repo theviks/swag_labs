@@ -10,7 +10,7 @@
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      	<class name="testCases.TC_L1"/>
+      <!--  	<class name="testCases.TC_L1"/>
         <class name="testCases.TC_L2"/>
         <class name="testCases.TC_L3"/> 
         <class name="testCases.TC_L4"/> 
@@ -21,7 +21,9 @@
      	<class name ="testCases.TC_C1"/> 
         <class name ="testCases.TC_C2"/> 
         <class name ="testCases.TC_C3"/> 
-      	<class name ="testCases.TC_C4"/>
+      	<class name ="testCases.TC_C4"/> -->
+      	<class name ="testCases.TC_CH1"/>
+      	
     </classes>
   </test> <!-- Test -->
   
