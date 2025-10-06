@@ -18,6 +18,7 @@ public class checkOutPage extends BasePage {
 	@FindBy(xpath="//input[@id='continue']") WebElement continueBtn;
 	
 	@FindBy(xpath="//span[@class='title']") WebElement verifyCheckOut;
+	@FindBy(xpath="//h3[normalize-space()='Error: First Name is required']") WebElement verifyMandatoryField;
 	
 	public void processCheckout(String fName,String lName,String pCode) {
 		checkOutBtn.click();
@@ -31,5 +32,7 @@ public class checkOutPage extends BasePage {
 		return verifyCheckOut.isDisplayed();
 	}
 	
-	
+	public boolean vfMandatoryField() {
+		return verifyMandatoryField.isDisplayed();
+	}
 }

@@ -12,3 +12,84 @@
 2025-10-06 18:58:12 INFO  TC_CH1:36 - Order Summary page displayed
 2025-10-06 18:58:12 INFO  TC_CH1:37 - *** Test Case: TC_CH1 Passed ***
 2025-10-06 18:58:12 INFO  TC_CH1:43 - *** Ending Test Case: TC_CH1 ***
+2025-10-06 19:07:03 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-06 19:07:03 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-06 19:07:03 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-06 19:07:03 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-06 19:07:14 ERROR TC_CH2:39 - *** Test Case: TC_CH2 Failed ***
+2025-10-06 19:07:14 ERROR TC_CH2:40 - Error encountered during TC_CH2 execution: no such element: Unable to locate element: {"method":"xpath","selector":"h3[data-test='error']"}
+  (Session info: chrome=140.0.7339.210)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074254b9ed9008df8c720d0ed0dc5276, findElement {value=h3[data-test='error'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.210, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\tiwar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56093/devtoo..., se:cdpVersion: 140.0.7339.210, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 074254b9ed9008df8c720d0ed0dc5276
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"h3[data-test='error']"}
+  (Session info: chrome=140.0.7339.210)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074254b9ed9008df8c720d0ed0dc5276, findElement {value=h3[data-test='error'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.210, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\tiwar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56093/devtoo..., se:cdpVersion: 140.0.7339.210, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 074254b9ed9008df8c720d0ed0dc5276
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
+	at pageObject.checkOutPage.vfMandatoryField(checkOutPage.java:36)
+	at testCases.TC_CH2.verifyMandatoryField(TC_CH2.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-10-06 19:07:14 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***
+2025-10-06 19:08:05 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-06 19:08:06 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-06 19:08:06 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-06 19:08:06 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-06 19:08:06 INFO  TC_CH2:37 - *** Test Case: TC_CH2 Passed ***
+2025-10-06 19:08:06 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***
+2025-10-06 19:08:29 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-06 19:08:29 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-06 19:08:29 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-06 19:08:29 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-06 19:08:30 INFO  TC_CH2:37 - *** Test Case: TC_CH2 Passed ***
+2025-10-06 19:08:30 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***

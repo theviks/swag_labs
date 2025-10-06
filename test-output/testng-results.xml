@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-06T18:58:08 GMT-04:00" name="Suite" finished-at="2025-10-06T18:58:13 GMT-04:00" duration-ms="4393">
+  <suite started-at="2025-10-06T19:08:26 GMT-04:00" name="Suite" finished-at="2025-10-06T19:08:30 GMT-04:00" duration-ms="4099">
     <groups>
     </groups>
-    <test started-at="2025-10-06T18:58:08 GMT-04:00" name="Test" finished-at="2025-10-06T18:58:13 GMT-04:00" duration-ms="4393">
-      <class name="testCases.TC_CH1">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_CH1@185a6e9]" started-at="2025-10-06T18:58:09 GMT-04:00" name="setUp" finished-at="2025-10-06T18:58:11 GMT-04:00" duration-ms="2254" status="PASS">
+    <test started-at="2025-10-06T19:08:26 GMT-04:00" name="Test" finished-at="2025-10-06T19:08:30 GMT-04:00" duration-ms="4099">
+      <class name="testCases.TC_CH2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_CH2@185a6e9]" started-at="2025-10-06T19:08:26 GMT-04:00" name="setUp" finished-at="2025-10-06T19:08:29 GMT-04:00" duration-ms="2351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCheckOut()[pri:0, instance:testCases.TC_CH1@185a6e9]" started-at="2025-10-06T18:58:11 GMT-04:00" name="verifyCheckOut" finished-at="2025-10-06T18:58:12 GMT-04:00" duration-ms="1191" status="PASS">
+        <test-method signature="verifyMandatoryField()[pri:0, instance:testCases.TC_CH2@185a6e9]" started-at="2025-10-06T19:08:29 GMT-04:00" name="verifyMandatoryField" finished-at="2025-10-06T19:08:30 GMT-04:00" duration-ms="1128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCheckOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_CH1@185a6e9]" started-at="2025-10-06T18:58:12 GMT-04:00" name="tearDown" finished-at="2025-10-06T18:58:13 GMT-04:00" duration-ms="375" status="PASS">
+        </test-method> <!-- verifyMandatoryField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_CH2@185a6e9]" started-at="2025-10-06T19:08:30 GMT-04:00" name="tearDown" finished-at="2025-10-06T19:08:30 GMT-04:00" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_CH1 -->
+      </class> <!-- testCases.TC_CH2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

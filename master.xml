@@ -21,8 +21,9 @@
      	<class name ="testCases.TC_C1"/> 
         <class name ="testCases.TC_C2"/> 
         <class name ="testCases.TC_C3"/> 
-      	<class name ="testCases.TC_C4"/> -->
-      	<class name ="testCases.TC_CH1"/>
+      	<class name ="testCases.TC_C4"/>
+      	 	<class name ="testCases.TC_CH1"/> -->
+      	<class name ="testCases.TC_CH2"/>
       	
     </classes>
   </test> <!-- Test -->
