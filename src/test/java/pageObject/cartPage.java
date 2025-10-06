@@ -24,6 +24,11 @@ public class cartPage extends BasePage{
 	
 	
 	public void rmvItem() {
+		
+		for(WebElement atc : addToCartBtn) {
+			atc.click();
+			}
+		
 		cartBtn.click();
 		
 		for(WebElement rv:rmvBtn) {
@@ -46,5 +51,18 @@ public class cartPage extends BasePage{
 	}
 	public void verifyCartCount() {
 		Assert.assertEquals(cartCt.getText(), "6");
+	}
+	/*------------------------------------------------Verify cart Page displays items correctly---------------------------------------*/
+	@FindBy(xpath="//div[@class='inventory_item_name']") List<WebElement> pNames;
+	@FindBy(xpath="//div[@class='inventory_item_price']") List<WebElement> pPrices;
+	
+	public void prodcutDetails() {
+		
+		cartBtn.click();
+		
+		Assert.assertEquals(pNames.size(), 6);
+		Assert.assertEquals(pPrices.size(), 6);
+		Assert.assertEquals(cartCount.getText(), "6");
+		
 	}
 }

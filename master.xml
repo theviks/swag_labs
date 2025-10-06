@@ -10,17 +10,18 @@
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      <!--  <class name="testCases.TC_L1"/> -->
-      <!--  <class name="testCases.TC_L2"/> -->
-      <!--  <class name="testCases.TC_L3"/> -->
-      <!--  <class name="testCases.TC_L4"/> -->
-      <!--  <class name ="testCases.TC_P1"/> -->
-     <!--  <class name ="testCases.TC_P2"/> -->
-     <!--  <class name ="testCases.TC_P3"/> -->
-     <!--  <class name ="testCases.TC_P4"/> -->
-     <!--  <class name ="testCases.TC_C1"/> -->
-      <!--  <class name ="testCases.TC_C2"/> -->
-      <class name ="testCases.TC_C3"/>
+      	<class name="testCases.TC_L1"/>
+        <class name="testCases.TC_L2"/>
+        <class name="testCases.TC_L3"/> 
+        <class name="testCases.TC_L4"/> 
+        <class name ="testCases.TC_P1"/> 
+       	<class name ="testCases.TC_P2"/> 
+       	<class name ="testCases.TC_P3"/> 
+       	<class name ="testCases.TC_P4"/> 
+     	<class name ="testCases.TC_C1"/> 
+        <class name ="testCases.TC_C2"/> 
+        <class name ="testCases.TC_C3"/> 
+      	<class name ="testCases.TC_C4"/>
     </classes>
   </test> <!-- Test -->
   

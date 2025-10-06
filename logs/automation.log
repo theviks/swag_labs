@@ -1,18 +1,57 @@
-2025-10-05 18:22:58 INFO  TC_C1:13 - *** Starting Test Case: TC_C1 (Verify adding a product to cart ***
-2025-10-05 18:22:59 INFO  TC_C1:20 - Login Successful with user: standard_user
-2025-10-05 18:22:59 INFO  TC_C1:23 - verify functionality for TC_C1: Verify addng a product to cart
-2025-10-05 18:22:59 INFO  TC_C1:26 - Cart count displayed correctly
-2025-10-05 18:22:59 INFO  TC_C1:27 - *** Test Case: TC_C1 Passed ***
-2025-10-05 18:22:59 INFO  TC_C1:33 - *** Ending Test Case: TC_C1 ***
-2025-10-05 19:24:31 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
-2025-10-05 19:24:32 INFO  TC_C2:21 - Login successful with user: standard_user
-2025-10-05 19:24:32 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
-2025-10-05 19:24:32 INFO  TC_C2:29 - Removing Product SuccessFull
-2025-10-05 19:24:32 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
-2025-10-05 19:24:32 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
-2025-10-05 19:33:11 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 (Verify adding Multiple product to cart ***
-2025-10-05 19:33:11 INFO  TC_C3:20 - Login Successful with user: standard_user
-2025-10-05 19:33:11 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
-2025-10-05 19:33:11 INFO  TC_C3:27 - Cart count displayed correctly
-2025-10-05 19:33:11 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
-2025-10-05 19:33:11 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***
+2025-10-05 20:32:34 INFO  TC_L1:12 - *** Testing started for TC_L1 ***
+2025-10-05 20:32:34 INFO  TC_L1:18 - *** Verification for correct login credential ***
+2025-10-05 20:32:34 INFO  TC_L1:23 - *** Testing Completed for TC_L1 ***
+2025-10-05 20:32:36 INFO  TC_L2:13 - *** Starting testing for TC_L2 ***
+2025-10-05 20:32:36 INFO  TC_L2:19 - *** Verification for TC_L2 ***
+2025-10-05 20:32:36 INFO  TC_L2:24 - *** Finished testing for TC_L2 ***
+2025-10-05 20:32:38 INFO  TC_L3:13 - *** Starting Testing for TC_L3 ***
+2025-10-05 20:32:38 INFO  TC_L3:19 - *** Verfiying for TC_L3 ***
+2025-10-05 20:32:38 INFO  TC_L3:24 - *** Finished Testing for TC_L3 ***
+2025-10-05 20:32:39 INFO  TC_L4:13 - *** Strting Testin for TC_L4 ***
+2025-10-05 20:32:40 INFO  TC_L4:17 - *** Verification for TC_L4 ***
+2025-10-05 20:32:40 INFO  TC_L4:22 - *** Completed Testin for TC_L4 ***
+2025-10-05 20:32:41 INFO  TC_P1:14 - *** Starting Testing for TC_P1 ***
+2025-10-05 20:32:41 INFO  TC_P1:21 - *** Checking all products displayed for TC_P1 ***
+2025-10-05 20:32:42 INFO  TC_P1:27 - *** Completed Testing for TC_P1 ***
+2025-10-05 20:32:43 INFO  TC_P2:14 - *** Starting Test Case: TC_P2 (A to Z Sorting) ***
+2025-10-05 20:32:43 INFO  TC_P2:21 - Login successful with user: standard_user
+2025-10-05 20:32:43 INFO  TC_P2:24 - Verifying functionality for TC_P2: A to Z Sorting
+2025-10-05 20:32:44 INFO  TC_P2:27 - A to Z sorting verification completed successfully.
+2025-10-05 20:32:44 INFO  TC_P2:29 - *** Test Case: TC_P2 PASSED ***
+2025-10-05 20:32:44 INFO  TC_P2:35 - *** Ending Test Case: TC_P2 ***
+2025-10-05 20:32:45 INFO  TC_P3:13 - *** Starting Test Case : TC_P3 (Low to High Price Sorting) ***
+2025-10-05 20:32:46 INFO  TC_P3:20 - Login successful with user: standard_user
+2025-10-05 20:32:46 INFO  TC_P3:23 - Verifying functionality for TC_P3: Price Low to High Sorting
+2025-10-05 20:32:46 INFO  TC_P3:26 - Price Low to High sorting verification completed Successfully
+2025-10-05 20:32:46 INFO  TC_P3:28 - *** Test Case: TC_P3 Passed ***
+2025-10-05 20:32:46 INFO  TC_P3:34 - *** Ending Test Case: TC_P3 ***
+2025-10-05 20:32:48 INFO  TC_P4:13 - *** Starting Test Case: TC_P4 (Verify Product details navigation) ***
+2025-10-05 20:32:48 INFO  TC_P4:20 - Login successful with user: standard_user
+2025-10-05 20:32:48 INFO  TC_P4:23 - Verify functionality for TC_P4: Product details are displayed Right
+2025-10-05 20:32:48 INFO  TC_P4:26 - Product details displayed correctly
+2025-10-05 20:32:48 INFO  TC_P4:28 - *** Test Case: TC_P4 Passed ***
+2025-10-05 20:32:48 INFO  TC_P4:34 - *** Ending Test Case: TC_P3 ***
+2025-10-05 20:32:49 INFO  TC_C1:13 - *** Starting Test Case: TC_C1 (Verify adding a product to cart ***
+2025-10-05 20:32:50 INFO  TC_C1:20 - Login Successful with user: standard_user
+2025-10-05 20:32:50 INFO  TC_C1:23 - verify functionality for TC_C1: Verify addng a product to cart
+2025-10-05 20:32:50 INFO  TC_C1:27 - Cart count displayed correctly
+2025-10-05 20:32:50 INFO  TC_C1:28 - *** Test Case: TC_C1 Passed ***
+2025-10-05 20:32:50 INFO  TC_C1:34 - *** Ending Test Case: TC_C1 ***
+2025-10-05 20:32:51 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
+2025-10-05 20:32:52 INFO  TC_C2:21 - Login successful with user: standard_user
+2025-10-05 20:32:52 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
+2025-10-05 20:32:52 INFO  TC_C2:29 - Removing Product SuccessFull
+2025-10-05 20:32:52 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
+2025-10-05 20:32:52 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
+2025-10-05 20:32:54 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 Verify adding Multiple product to cart ***
+2025-10-05 20:32:54 INFO  TC_C3:20 - Login Successful with user: standard_user
+2025-10-05 20:32:54 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
+2025-10-05 20:32:54 INFO  TC_C3:27 - Cart count displayed correctly
+2025-10-05 20:32:54 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
+2025-10-05 20:32:54 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***
+2025-10-05 20:32:56 INFO  TC_C4:13 - *** Starting Test Case: TC_C4 Verify Cart Page display Items Correctly ***
+2025-10-05 20:32:56 INFO  TC_C4:20 - Login Successful with user: standard_user
+2025-10-05 20:32:56 INFO  TC_C4:23 - verify functionality for TC_C4: Verify adding Multiple product to cart
+2025-10-05 20:32:57 INFO  TC_C4:28 - Cart displayed all product correctly
+2025-10-05 20:32:57 INFO  TC_C4:29 - *** Test Case: TC_C4 Passed ***
+2025-10-05 20:32:57 INFO  TC_C4:35 - *** Ending Test Case: TC_C4 ***
