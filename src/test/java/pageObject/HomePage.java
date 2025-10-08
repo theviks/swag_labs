@@ -121,4 +121,19 @@ public class HomePage extends BasePage {
 		cartBtn.click();
 	}
 	
+	/*----------------------------------------------------Verify user can log out---------------------------------------------------------*/
+	@FindBy(xpath="//button[@id='react-burger-menu-btn']") WebElement burgerMenu;
+	@FindBy(xpath="//a[@id='logout_sidebar_link']") WebElement logOutBtn;
+	@FindBy(xpath="//div[@class='login_logo']") WebElement loginLogo;
+	
+	public void logOut() {
+		burgerMenu.click();
+		logOutBtn.click();
+	}
+	
+	public boolean vfLogOut() {
+		return loginLogo.isDisplayed();
+	}
+	
+	
 }
