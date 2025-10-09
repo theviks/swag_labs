@@ -11,7 +11,7 @@ public class TC_O1 extends BaseClass {
 
 	@Test
 	public void veifyUserLogout() {
-		logger.info("*** Starting Test Case: TC_CH4 Verify User can Logout ***");
+		logger.info("*** Starting Test Case: TC_O1 Verify User can Logout ***");
 		try {
 			//Step1: login
 		loginPage lp = new loginPage(driver);

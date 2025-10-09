@@ -135,5 +135,11 @@ public class HomePage extends BasePage {
 		return loginLogo.isDisplayed();
 	}
 	
+	/*---------------------------------------------------Verify session after logout-------------------------------------------------------*/
+	@FindBy(xpath="//h3[@data-test='error']") WebElement vfBackPress;
+	
+	public boolean vfSession() {
+		return vfBackPress.isDisplayed();
+	}
 	
 }

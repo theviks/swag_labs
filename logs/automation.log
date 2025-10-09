@@ -73,3 +73,722 @@ Session ID: cf104e2cb26103fdcea6ffe820bccd69
 2025-10-08 18:27:49 INFO  TC_O1:29 - verify functionality for TC_O1: Verifying user Loged Out successfully 
 2025-10-08 18:27:49 INFO  TC_O1:32 - *** Test Case: TC_O1 Passed ***
 2025-10-08 18:27:49 INFO  TC_O1:38 - *** Ending Test Case: TC_O1 ***
+2025-10-08 20:11:07 INFO  TC_O2:14 - *** Starting Test Case: TC_O2 Verify Session after  Logout ***
+2025-10-08 20:11:08 INFO  TC_O2:21 - Login Successful with user: standard_user
+2025-10-08 20:11:08 INFO  TC_O2:23 - verify functionality for TC_O2: Pressing Logout Button
+2025-10-08 20:11:08 INFO  TC_O2:29 - verify functionality for TC_O2: Verifying session after logout
+2025-10-08 20:11:08 INFO  TC_O2:32 - *** Test Case: TC_O2 Passed ***
+2025-10-08 20:11:08 INFO  TC_O2:38 - *** Ending Test Case: TC_O2 ***
+2025-10-08 20:12:24 INFO  TC_L1:12 - *** Testing started for TC_L1 ***
+2025-10-08 20:12:25 INFO  TC_L1:18 - *** Verification for correct login credential ***
+2025-10-08 20:12:25 INFO  TC_L1:23 - *** Testing Completed for TC_L1 ***
+2025-10-08 20:12:26 INFO  TC_L2:13 - *** Starting testing for TC_L2 ***
+2025-10-08 20:12:26 INFO  TC_L2:19 - *** Verification for TC_L2 ***
+2025-10-08 20:12:26 INFO  TC_L2:24 - *** Finished testing for TC_L2 ***
+2025-10-08 20:12:28 INFO  TC_L3:13 - *** Starting Testing for TC_L3 ***
+2025-10-08 20:12:28 INFO  TC_L3:19 - *** Verfiying for TC_L3 ***
+2025-10-08 20:12:28 INFO  TC_L3:24 - *** Finished Testing for TC_L3 ***
+2025-10-08 20:12:32 INFO  TC_L4:13 - *** Strting Testin for TC_L4 ***
+2025-10-08 20:12:32 INFO  TC_L4:17 - *** Verification for TC_L4 ***
+2025-10-08 20:12:32 INFO  TC_L4:22 - *** Completed Testin for TC_L4 ***
+2025-10-08 20:12:34 INFO  TC_P1:14 - *** Starting Testing for TC_P1 ***
+2025-10-08 20:12:34 INFO  TC_P1:21 - *** Checking all products displayed for TC_P1 ***
+2025-10-08 20:12:34 INFO  TC_P1:27 - *** Completed Testing for TC_P1 ***
+2025-10-08 20:12:36 INFO  TC_P2:14 - *** Starting Test Case: TC_P2 (A to Z Sorting) ***
+2025-10-08 20:12:36 INFO  TC_P2:21 - Login successful with user: standard_user
+2025-10-08 20:12:36 INFO  TC_P2:24 - Verifying functionality for TC_P2: A to Z Sorting
+2025-10-08 20:12:36 INFO  TC_P2:27 - A to Z sorting verification completed successfully.
+2025-10-08 20:12:36 INFO  TC_P2:29 - *** Test Case: TC_P2 PASSED ***
+2025-10-08 20:12:36 INFO  TC_P2:35 - *** Ending Test Case: TC_P2 ***
+2025-10-08 20:12:38 INFO  TC_P3:13 - *** Starting Test Case : TC_P3 (Low to High Price Sorting) ***
+2025-10-08 20:12:38 INFO  TC_P3:20 - Login successful with user: standard_user
+2025-10-08 20:12:38 INFO  TC_P3:23 - Verifying functionality for TC_P3: Price Low to High Sorting
+2025-10-08 20:12:38 INFO  TC_P3:26 - Price Low to High sorting verification completed Successfully
+2025-10-08 20:12:38 INFO  TC_P3:28 - *** Test Case: TC_P3 Passed ***
+2025-10-08 20:12:38 INFO  TC_P3:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:12:40 INFO  TC_P4:13 - *** Starting Test Case: TC_P4 (Verify Product details navigation) ***
+2025-10-08 20:12:40 INFO  TC_P4:20 - Login successful with user: standard_user
+2025-10-08 20:12:40 INFO  TC_P4:23 - Verify functionality for TC_P4: Product details are displayed Right
+2025-10-08 20:12:40 INFO  TC_P4:26 - Product details displayed correctly
+2025-10-08 20:12:40 INFO  TC_P4:28 - *** Test Case: TC_P4 Passed ***
+2025-10-08 20:12:40 INFO  TC_P4:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:12:42 INFO  TC_C1:13 - *** Starting Test Case: TC_C1 (Verify adding a product to cart ***
+2025-10-08 20:12:42 INFO  TC_C1:20 - Login Successful with user: standard_user
+2025-10-08 20:12:42 INFO  TC_C1:23 - verify functionality for TC_C1: Verify addng a product to cart
+2025-10-08 20:12:42 INFO  TC_C1:27 - Cart count displayed correctly
+2025-10-08 20:12:42 INFO  TC_C1:28 - *** Test Case: TC_C1 Passed ***
+2025-10-08 20:12:42 INFO  TC_C1:34 - *** Ending Test Case: TC_C1 ***
+2025-10-08 20:12:43 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
+2025-10-08 20:12:44 INFO  TC_C2:21 - Login successful with user: standard_user
+2025-10-08 20:12:44 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
+2025-10-08 20:12:44 INFO  TC_C2:29 - Removing Product SuccessFull
+2025-10-08 20:12:44 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
+2025-10-08 20:12:44 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
+2025-10-08 20:12:46 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 Verify adding Multiple product to cart ***
+2025-10-08 20:12:46 INFO  TC_C3:20 - Login Successful with user: standard_user
+2025-10-08 20:12:46 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
+2025-10-08 20:12:46 INFO  TC_C3:27 - Cart count displayed correctly
+2025-10-08 20:12:46 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
+2025-10-08 20:12:46 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***
+2025-10-08 20:12:50 INFO  TC_C4:13 - *** Starting Test Case: TC_C4 Verify Cart Page display Items Correctly ***
+2025-10-08 20:12:50 INFO  TC_C4:20 - Login Successful with user: standard_user
+2025-10-08 20:12:50 INFO  TC_C4:23 - verify functionality for TC_C4: Verify adding Multiple product to cart
+2025-10-08 20:12:51 INFO  TC_C4:28 - Cart displayed all product correctly
+2025-10-08 20:12:51 INFO  TC_C4:29 - *** Test Case: TC_C4 Passed ***
+2025-10-08 20:12:51 INFO  TC_C4:35 - *** Ending Test Case: TC_C4 ***
+2025-10-08 20:12:52 INFO  TC_CH1:14 - *** Starting Test Case: TC_CH1 Verify CheckOut with Valid details ***
+2025-10-08 20:12:52 INFO  TC_CH1:21 - Login Successful with user: standard_user
+2025-10-08 20:12:52 INFO  TC_CH1:24 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:12:53 INFO  TC_CH1:33 - verify functionality for TC_CH1: Verifying order summary page displayed
+2025-10-08 20:12:53 INFO  TC_CH1:36 - Order Summary page displayed
+2025-10-08 20:12:53 INFO  TC_CH1:37 - *** Test Case: TC_CH1 Passed ***
+2025-10-08 20:12:53 INFO  TC_CH1:43 - *** Ending Test Case: TC_CH1 ***
+2025-10-08 20:12:54 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-08 20:12:55 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-08 20:12:55 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:12:55 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-08 20:12:55 INFO  TC_CH2:37 - *** Test Case: TC_CH2 Passed ***
+2025-10-08 20:12:55 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***
+2025-10-08 20:12:57 INFO  TC_CH3:15 - *** Starting Test Case: TC_CH3 Verify Order Summary ***
+2025-10-08 20:12:57 INFO  TC_CH3:22 - Login Successful with user: standard_user
+2025-10-08 20:12:57 INFO  TC_CH3:25 - verify functionality for TC_CH3: Adding Multiple product to cart
+2025-10-08 20:12:57 INFO  TC_CH3:30 - verify functionality for TC_CH3: Verifying Summary
+2025-10-08 20:12:58 INFO  TC_CH3:36 - *** Test Case: TC_CH3 Passed ***
+2025-10-08 20:12:58 INFO  TC_CH3:42 - *** Ending Test Case: TC_CH3 ***
+2025-10-08 20:12:59 INFO  TC_CH4:15 - *** Starting Test Case: TC_CH4 Verify Successful Order Completion***
+2025-10-08 20:13:00 INFO  TC_CH4:22 - Login Successful with user: standard_user
+2025-10-08 20:13:00 INFO  TC_CH4:25 - verify functionality for TC_CH4: Adding Multiple product to cart
+2025-10-08 20:13:00 INFO  TC_CH4:30 - verify functionality for TC_CH4: Verifying Successful Order Message
+2025-10-08 20:13:00 INFO  TC_CH4:36 - *** Test Case: TC_CH Passed ***
+2025-10-08 20:13:00 INFO  TC_CH4:42 - *** Ending Test Case: TC_CH4 ***
+2025-10-08 20:13:02 INFO  TC_O1:14 - *** Starting Test Case: TC_O1 Verify User can Logout ***
+2025-10-08 20:13:02 INFO  TC_O1:21 - Login Successful with user: standard_user
+2025-10-08 20:13:02 INFO  TC_O1:24 - verify functionality for TC_O1: Pressing Logout Button
+2025-10-08 20:13:02 INFO  TC_O1:29 - verify functionality for TC_O1: Verifying user Loged Out successfully 
+2025-10-08 20:13:02 INFO  TC_O1:32 - *** Test Case: TC_O1 Passed ***
+2025-10-08 20:13:02 INFO  TC_O1:38 - *** Ending Test Case: TC_O1 ***
+2025-10-08 20:13:04 INFO  TC_O2:14 - *** Starting Test Case: TC_O2 Verify Session after  Logout ***
+2025-10-08 20:13:04 INFO  TC_O2:21 - Login Successful with user: standard_user
+2025-10-08 20:13:04 INFO  TC_O2:23 - verify functionality for TC_O2: Pressing Logout Button
+2025-10-08 20:13:04 INFO  TC_O2:29 - verify functionality for TC_O2: Verifying session after logout
+2025-10-08 20:13:04 INFO  TC_O2:32 - *** Test Case: TC_O2 Passed ***
+2025-10-08 20:13:04 INFO  TC_O2:38 - *** Ending Test Case: TC_O2 ***
+2025-10-08 20:17:56 INFO  TC_L1:12 - *** Testing started for TC_L1 ***
+2025-10-08 20:17:57 INFO  TC_L1:18 - *** Verification for correct login credential ***
+2025-10-08 20:17:57 INFO  TC_L1:23 - *** Testing Completed for TC_L1 ***
+2025-10-08 20:17:58 INFO  TC_L2:13 - *** Starting testing for TC_L2 ***
+2025-10-08 20:17:59 INFO  TC_L2:19 - *** Verification for TC_L2 ***
+2025-10-08 20:17:59 INFO  TC_L2:24 - *** Finished testing for TC_L2 ***
+2025-10-08 20:18:00 INFO  TC_L3:13 - *** Starting Testing for TC_L3 ***
+2025-10-08 20:18:00 INFO  TC_L3:19 - *** Verfiying for TC_L3 ***
+2025-10-08 20:18:00 INFO  TC_L3:24 - *** Finished Testing for TC_L3 ***
+2025-10-08 20:18:02 INFO  TC_L4:13 - *** Strting Testin for TC_L4 ***
+2025-10-08 20:18:02 INFO  TC_L4:17 - *** Verification for TC_L4 ***
+2025-10-08 20:18:02 INFO  TC_L4:22 - *** Completed Testin for TC_L4 ***
+2025-10-08 20:18:03 INFO  TC_P1:14 - *** Starting Testing for TC_P1 ***
+2025-10-08 20:18:04 INFO  TC_P1:21 - *** Checking all products displayed for TC_P1 ***
+2025-10-08 20:18:04 INFO  TC_P1:27 - *** Completed Testing for TC_P1 ***
+2025-10-08 20:18:06 INFO  TC_P2:14 - *** Starting Test Case: TC_P2 (A to Z Sorting) ***
+2025-10-08 20:18:06 INFO  TC_P2:21 - Login successful with user: standard_user
+2025-10-08 20:18:06 INFO  TC_P2:24 - Verifying functionality for TC_P2: A to Z Sorting
+2025-10-08 20:18:06 INFO  TC_P2:27 - A to Z sorting verification completed successfully.
+2025-10-08 20:18:06 INFO  TC_P2:29 - *** Test Case: TC_P2 PASSED ***
+2025-10-08 20:18:06 INFO  TC_P2:35 - *** Ending Test Case: TC_P2 ***
+2025-10-08 20:18:07 INFO  TC_P3:13 - *** Starting Test Case : TC_P3 (Low to High Price Sorting) ***
+2025-10-08 20:18:08 INFO  TC_P3:20 - Login successful with user: standard_user
+2025-10-08 20:18:08 INFO  TC_P3:23 - Verifying functionality for TC_P3: Price Low to High Sorting
+2025-10-08 20:18:08 INFO  TC_P3:26 - Price Low to High sorting verification completed Successfully
+2025-10-08 20:18:08 INFO  TC_P3:28 - *** Test Case: TC_P3 Passed ***
+2025-10-08 20:18:08 INFO  TC_P3:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:18:10 INFO  TC_P4:13 - *** Starting Test Case: TC_P4 (Verify Product details navigation) ***
+2025-10-08 20:18:10 INFO  TC_P4:20 - Login successful with user: standard_user
+2025-10-08 20:18:10 INFO  TC_P4:23 - Verify functionality for TC_P4: Product details are displayed Right
+2025-10-08 20:18:10 INFO  TC_P4:26 - Product details displayed correctly
+2025-10-08 20:18:10 INFO  TC_P4:28 - *** Test Case: TC_P4 Passed ***
+2025-10-08 20:18:10 INFO  TC_P4:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:18:12 INFO  TC_C1:13 - *** Starting Test Case: TC_C1 (Verify adding a product to cart ***
+2025-10-08 20:18:12 INFO  TC_C1:20 - Login Successful with user: standard_user
+2025-10-08 20:18:12 INFO  TC_C1:23 - verify functionality for TC_C1: Verify addng a product to cart
+2025-10-08 20:18:13 INFO  TC_C1:27 - Cart count displayed correctly
+2025-10-08 20:18:13 INFO  TC_C1:28 - *** Test Case: TC_C1 Passed ***
+2025-10-08 20:18:13 INFO  TC_C1:34 - *** Ending Test Case: TC_C1 ***
+2025-10-08 20:18:14 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
+2025-10-08 20:18:15 INFO  TC_C2:21 - Login successful with user: standard_user
+2025-10-08 20:18:15 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
+2025-10-08 20:18:16 INFO  TC_C2:29 - Removing Product SuccessFull
+2025-10-08 20:18:16 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
+2025-10-08 20:18:16 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
+2025-10-08 20:18:17 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 Verify adding Multiple product to cart ***
+2025-10-08 20:18:18 INFO  TC_C3:20 - Login Successful with user: standard_user
+2025-10-08 20:18:18 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
+2025-10-08 20:18:18 INFO  TC_C3:27 - Cart count displayed correctly
+2025-10-08 20:18:18 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
+2025-10-08 20:18:18 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***
+2025-10-08 20:18:21 INFO  TC_L1:12 - *** Testing started for TC_L1 ***
+2025-10-08 20:18:21 INFO  TC_C4:13 - *** Starting Test Case: TC_C4 Verify Cart Page display Items Correctly ***
+2025-10-08 20:18:22 INFO  TC_L1:18 - *** Verification for correct login credential ***
+2025-10-08 20:18:22 INFO  TC_C4:20 - Login Successful with user: standard_user
+2025-10-08 20:18:22 INFO  TC_C4:23 - verify functionality for TC_C4: Verify adding Multiple product to cart
+2025-10-08 20:18:32 INFO  TC_L1:23 - *** Testing Completed for TC_L1 ***
+2025-10-08 20:18:42 ERROR TC_C4:31 - *** Test Case: TC_C4 Failed ***
+2025-10-08 20:18:42 ERROR TC_C4:32 - Error encountered during TC_C4 execution: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0affa601e84a278752bd418e8a923fa1, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.65, chrome: {chromedriverVersion: 141.0.7390.65 (b2ec783d2b51..., userDataDir: C:\Users\tiwar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49423/devtoo..., se:cdpVersion: 141.0.7390.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0affa601e84a278752bd418e8a923fa1
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0affa601e84a278752bd418e8a923fa1, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.65, chrome: {chromedriverVersion: 141.0.7390.65 (b2ec783d2b51..., userDataDir: C:\Users\tiwar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49423/devtoo..., se:cdpVersion: 141.0.7390.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0affa601e84a278752bd418e8a923fa1
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObject.cartPage.addToCart(cartPage.java:50)
+	at testCases.TC_C4.verifyCartDetails(TC_C4.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@61195818 rejected from java.util.concurrent.ThreadPoolExecutor@38faca26[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 109]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	... 4 more
+Caused by: java.io.IOException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@61195818 rejected from java.util.concurrent.ThreadPoolExecutor@38faca26[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 109]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:972)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@61195818 rejected from java.util.concurrent.ThreadPoolExecutor@38faca26[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 109]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:183)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.onReadError(Http1AsyncReceiver.java:516)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:601)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:648)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:853)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1477)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1422)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1422)
+2025-10-08 20:18:43 INFO  TC_C4:35 - *** Ending Test Case: TC_C4 ***
+2025-10-08 20:18:44 INFO  TC_CH1:14 - *** Starting Test Case: TC_CH1 Verify CheckOut with Valid details ***
+2025-10-08 20:18:45 INFO  TC_CH1:21 - Login Successful with user: standard_user
+2025-10-08 20:18:45 INFO  TC_CH1:24 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:18:47 INFO  TC_CH1:33 - verify functionality for TC_CH1: Verifying order summary page displayed
+2025-10-08 20:18:47 INFO  TC_CH1:36 - Order Summary page displayed
+2025-10-08 20:18:47 INFO  TC_CH1:37 - *** Test Case: TC_CH1 Passed ***
+2025-10-08 20:18:47 INFO  TC_CH1:43 - *** Ending Test Case: TC_CH1 ***
+2025-10-08 20:18:49 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-08 20:18:50 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-08 20:18:50 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:18:51 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-08 20:18:51 INFO  TC_L2:13 - *** Starting testing for TC_L2 ***
+2025-10-08 20:19:01 ERROR TC_CH2:39 - *** Test Case: TC_CH2 Failed ***
+2025-10-08 20:19:01 ERROR TC_CH2:40 - Error encountered during TC_CH2 execution: Unable to locate element: //button[@id='checkout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f9fb646a-435d-454c-867e-d28def9950b0, findElement {value=//button[@id='checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9008, moz:profile: C:\Users\tiwar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f9fb646a-435d-454c-867e-d28def9950b0
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id='checkout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f9fb646a-435d-454c-867e-d28def9950b0, findElement {value=//button[@id='checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9008, moz:profile: C:\Users\tiwar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f9fb646a-435d-454c-867e-d28def9950b0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObject.checkOutPage.processCheckout(checkOutPage.java:25)
+	at testCases.TC_CH2.verifyMandatoryField(TC_CH2.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-08 20:19:01 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***
+2025-10-08 20:19:03 INFO  TC_L2:24 - *** Finished testing for TC_L2 ***
+2025-10-08 20:19:04 INFO  TC_CH3:15 - *** Starting Test Case: TC_CH3 Verify Order Summary ***
+2025-10-08 20:19:05 INFO  TC_CH3:22 - Login Successful with user: standard_user
+2025-10-08 20:19:05 INFO  TC_CH3:25 - verify functionality for TC_CH3: Adding Multiple product to cart
+2025-10-08 20:19:06 INFO  TC_CH3:30 - verify functionality for TC_CH3: Verifying Summary
+2025-10-08 20:19:07 INFO  TC_CH3:36 - *** Test Case: TC_CH3 Passed ***
+2025-10-08 20:19:07 INFO  TC_CH3:42 - *** Ending Test Case: TC_CH3 ***
+2025-10-08 20:19:09 INFO  TC_CH4:15 - *** Starting Test Case: TC_CH4 Verify Successful Order Completion***
+2025-10-08 20:19:10 INFO  TC_CH4:22 - Login Successful with user: standard_user
+2025-10-08 20:19:10 INFO  TC_CH4:25 - verify functionality for TC_CH4: Adding Multiple product to cart
+2025-10-08 20:19:11 INFO  TC_CH4:30 - verify functionality for TC_CH4: Verifying Successful Order Message
+2025-10-08 20:19:21 ERROR TC_CH4:38 - *** Test Case: TC_CH4 Failed ***
+2025-10-08 20:19:21 ERROR TC_CH4:39 - Error encountered during TC_CH4 execution: Unable to locate element: //button[@id='checkout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8e1c23b1-6a71-4aa7-8d3a-b8085521b82a, findElement {value=//button[@id='checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1856, moz:profile: C:\Users\tiwar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8e1c23b1-6a71-4aa7-8d3a-b8085521b82a
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@id='checkout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8e1c23b1-6a71-4aa7-8d3a-b8085521b82a, findElement {value=//button[@id='checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1856, moz:profile: C:\Users\tiwar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8e1c23b1-6a71-4aa7-8d3a-b8085521b82a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObject.checkOutPage.processCheckout(checkOutPage.java:25)
+	at testCases.TC_CH4.verifySuccessfulOrderCompletion(TC_CH4.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-08 20:19:21 INFO  TC_CH4:42 - *** Ending Test Case: TC_CH4 ***
+2025-10-08 20:19:21 INFO  TC_L3:13 - *** Starting Testing for TC_L3 ***
+2025-10-08 20:19:23 INFO  TC_L3:24 - *** Finished Testing for TC_L3 ***
+2025-10-08 20:19:24 INFO  TC_O1:14 - *** Starting Test Case: TC_O1 Verify User can Logout ***
+2025-10-08 20:19:25 INFO  TC_O1:21 - Login Successful with user: standard_user
+2025-10-08 20:19:25 INFO  TC_O1:24 - verify functionality for TC_O1: Pressing Logout Button
+2025-10-08 20:19:25 INFO  TC_O1:29 - verify functionality for TC_O1: Verifying user Loged Out successfully 
+2025-10-08 20:19:25 INFO  TC_O1:32 - *** Test Case: TC_O1 Passed ***
+2025-10-08 20:19:25 INFO  TC_O1:38 - *** Ending Test Case: TC_O1 ***
+2025-10-08 20:19:27 INFO  TC_O2:14 - *** Starting Test Case: TC_O2 Verify Session after  Logout ***
+2025-10-08 20:19:28 INFO  TC_O2:21 - Login Successful with user: standard_user
+2025-10-08 20:19:28 INFO  TC_O2:23 - verify functionality for TC_O2: Pressing Logout Button
+2025-10-08 20:19:28 INFO  TC_O2:29 - verify functionality for TC_O2: Verifying session after logout
+2025-10-08 20:19:28 INFO  TC_O2:32 - *** Test Case: TC_O2 Passed ***
+2025-10-08 20:19:28 INFO  TC_O2:38 - *** Ending Test Case: TC_O2 ***
+2025-10-08 20:19:31 INFO  TC_L4:13 - *** Strting Testin for TC_L4 ***
+2025-10-08 20:19:31 INFO  TC_L4:17 - *** Verification for TC_L4 ***
+2025-10-08 20:19:31 INFO  TC_L4:22 - *** Completed Testin for TC_L4 ***
+2025-10-08 20:19:37 INFO  TC_P1:14 - *** Starting Testing for TC_P1 ***
+2025-10-08 20:19:37 INFO  TC_P1:21 - *** Checking all products displayed for TC_P1 ***
+2025-10-08 20:19:38 INFO  TC_P1:27 - *** Completed Testing for TC_P1 ***
+2025-10-08 20:19:43 INFO  TC_P2:14 - *** Starting Test Case: TC_P2 (A to Z Sorting) ***
+2025-10-08 20:19:44 INFO  TC_P2:21 - Login successful with user: standard_user
+2025-10-08 20:19:44 INFO  TC_P2:24 - Verifying functionality for TC_P2: A to Z Sorting
+2025-10-08 20:19:44 INFO  TC_P2:27 - A to Z sorting verification completed successfully.
+2025-10-08 20:19:44 INFO  TC_P2:29 - *** Test Case: TC_P2 PASSED ***
+2025-10-08 20:19:44 INFO  TC_P2:35 - *** Ending Test Case: TC_P2 ***
+2025-10-08 20:19:51 INFO  TC_P3:13 - *** Starting Test Case : TC_P3 (Low to High Price Sorting) ***
+2025-10-08 20:19:52 INFO  TC_P3:20 - Login successful with user: standard_user
+2025-10-08 20:19:52 INFO  TC_P3:23 - Verifying functionality for TC_P3: Price Low to High Sorting
+2025-10-08 20:19:52 INFO  TC_P3:26 - Price Low to High sorting verification completed Successfully
+2025-10-08 20:19:52 INFO  TC_P3:28 - *** Test Case: TC_P3 Passed ***
+2025-10-08 20:19:52 INFO  TC_P3:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:19:58 INFO  TC_P4:13 - *** Starting Test Case: TC_P4 (Verify Product details navigation) ***
+2025-10-08 20:19:58 INFO  TC_P4:20 - Login successful with user: standard_user
+2025-10-08 20:19:58 INFO  TC_P4:23 - Verify functionality for TC_P4: Product details are displayed Right
+2025-10-08 20:19:58 INFO  TC_P4:26 - Product details displayed correctly
+2025-10-08 20:19:58 INFO  TC_P4:28 - *** Test Case: TC_P4 Passed ***
+2025-10-08 20:19:58 INFO  TC_P4:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:20:04 INFO  TC_C1:13 - *** Starting Test Case: TC_C1 (Verify adding a product to cart ***
+2025-10-08 20:20:05 INFO  TC_C1:20 - Login Successful with user: standard_user
+2025-10-08 20:20:05 INFO  TC_C1:23 - verify functionality for TC_C1: Verify addng a product to cart
+2025-10-08 20:20:05 INFO  TC_C1:27 - Cart count displayed correctly
+2025-10-08 20:20:05 INFO  TC_C1:28 - *** Test Case: TC_C1 Passed ***
+2025-10-08 20:20:05 INFO  TC_C1:34 - *** Ending Test Case: TC_C1 ***
+2025-10-08 20:20:10 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
+2025-10-08 20:20:11 INFO  TC_C2:21 - Login successful with user: standard_user
+2025-10-08 20:20:11 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
+2025-10-08 20:20:12 INFO  TC_C2:29 - Removing Product SuccessFull
+2025-10-08 20:20:12 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
+2025-10-08 20:20:12 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
+2025-10-08 20:20:17 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 Verify adding Multiple product to cart ***
+2025-10-08 20:20:18 INFO  TC_C3:20 - Login Successful with user: standard_user
+2025-10-08 20:20:18 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
+2025-10-08 20:20:19 INFO  TC_C3:27 - Cart count displayed correctly
+2025-10-08 20:20:19 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
+2025-10-08 20:20:19 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***
+2025-10-08 20:20:25 INFO  TC_C4:13 - *** Starting Test Case: TC_C4 Verify Cart Page display Items Correctly ***
+2025-10-08 20:20:25 INFO  TC_C4:20 - Login Successful with user: standard_user
+2025-10-08 20:20:25 INFO  TC_C4:23 - verify functionality for TC_C4: Verify adding Multiple product to cart
+2025-10-08 20:20:26 INFO  TC_C4:28 - Cart displayed all product correctly
+2025-10-08 20:20:26 INFO  TC_C4:29 - *** Test Case: TC_C4 Passed ***
+2025-10-08 20:20:26 INFO  TC_C4:35 - *** Ending Test Case: TC_C4 ***
+2025-10-08 20:20:32 INFO  TC_CH1:14 - *** Starting Test Case: TC_CH1 Verify CheckOut with Valid details ***
+2025-10-08 20:20:33 INFO  TC_CH1:21 - Login Successful with user: standard_user
+2025-10-08 20:20:33 INFO  TC_CH1:24 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:20:33 INFO  TC_CH1:33 - verify functionality for TC_CH1: Verifying order summary page displayed
+2025-10-08 20:20:33 INFO  TC_CH1:36 - Order Summary page displayed
+2025-10-08 20:20:33 INFO  TC_CH1:37 - *** Test Case: TC_CH1 Passed ***
+2025-10-08 20:20:33 INFO  TC_CH1:43 - *** Ending Test Case: TC_CH1 ***
+2025-10-08 20:20:39 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-08 20:20:40 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-08 20:20:40 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:20:40 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-08 20:20:41 INFO  TC_CH2:37 - *** Test Case: TC_CH2 Passed ***
+2025-10-08 20:20:41 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***
+2025-10-08 20:20:46 INFO  TC_CH3:15 - *** Starting Test Case: TC_CH3 Verify Order Summary ***
+2025-10-08 20:20:47 INFO  TC_CH3:22 - Login Successful with user: standard_user
+2025-10-08 20:20:47 INFO  TC_CH3:25 - verify functionality for TC_CH3: Adding Multiple product to cart
+2025-10-08 20:20:48 INFO  TC_CH3:30 - verify functionality for TC_CH3: Verifying Summary
+2025-10-08 20:20:48 INFO  TC_CH3:36 - *** Test Case: TC_CH3 Passed ***
+2025-10-08 20:20:48 INFO  TC_CH3:42 - *** Ending Test Case: TC_CH3 ***
+2025-10-08 20:20:54 INFO  TC_CH4:15 - *** Starting Test Case: TC_CH4 Verify Successful Order Completion***
+2025-10-08 20:20:54 INFO  TC_CH4:22 - Login Successful with user: standard_user
+2025-10-08 20:20:54 INFO  TC_CH4:25 - verify functionality for TC_CH4: Adding Multiple product to cart
+2025-10-08 20:20:55 INFO  TC_CH4:30 - verify functionality for TC_CH4: Verifying Successful Order Message
+2025-10-08 20:20:55 INFO  TC_CH4:36 - *** Test Case: TC_CH Passed ***
+2025-10-08 20:20:55 INFO  TC_CH4:42 - *** Ending Test Case: TC_CH4 ***
+2025-10-08 20:21:01 INFO  TC_O1:14 - *** Starting Test Case: TC_O1 Verify User can Logout ***
+2025-10-08 20:21:01 INFO  TC_O1:21 - Login Successful with user: standard_user
+2025-10-08 20:21:01 INFO  TC_O1:24 - verify functionality for TC_O1: Pressing Logout Button
+2025-10-08 20:21:01 ERROR TC_O1:34 - *** Test Case: TC_O1 Failed ***
+2025-10-08 20:21:01 ERROR TC_O1:35 - Error encountered during TC_O1 execution: Element <a id="logout_sidebar_link" class="bm-item menu-item" href="#"> could not be scrolled into view
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a078d4fa-2e4f-4fb3-b00a-c5a0a060dbeb, clickElement {id=1508a320-1240-45de-b047-b03ac079af37}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8944, moz:profile: C:\Users\tiwar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (a078d4fa-2e4f-4fb3-b00a-c5a0a060dbeb)] -> xpath: //a[@id='logout_sidebar_link']]
+Session ID: a078d4fa-2e4f-4fb3-b00a-c5a0a060dbeb
+org.openqa.selenium.ElementNotInteractableException: Element <a id="logout_sidebar_link" class="bm-item menu-item" href="#"> could not be scrolled into view
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a078d4fa-2e4f-4fb3-b00a-c5a0a060dbeb, clickElement {id=1508a320-1240-45de-b047-b03ac079af37}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8944, moz:profile: C:\Users\tiwar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (a078d4fa-2e4f-4fb3-b00a-c5a0a060dbeb)] -> xpath: //a[@id='logout_sidebar_link']]
+Session ID: a078d4fa-2e4f-4fb3-b00a-c5a0a060dbeb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObject.HomePage.logOut(HomePage.java:131)
+	at testCases.TC_O1.veifyUserLogout(TC_O1.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-08 20:21:01 INFO  TC_O1:38 - *** Ending Test Case: TC_O1 ***
+2025-10-08 20:21:07 INFO  TC_O2:14 - *** Starting Test Case: TC_O2 Verify Session after  Logout ***
+2025-10-08 20:21:07 INFO  TC_O2:21 - Login Successful with user: standard_user
+2025-10-08 20:21:07 INFO  TC_O2:23 - verify functionality for TC_O2: Pressing Logout Button
+2025-10-08 20:21:08 INFO  TC_O2:29 - verify functionality for TC_O2: Verifying session after logout
+2025-10-08 20:21:08 INFO  TC_O2:32 - *** Test Case: TC_O2 Passed ***
+2025-10-08 20:21:08 INFO  TC_O2:38 - *** Ending Test Case: TC_O2 ***
+2025-10-08 20:27:02 INFO  TC_L1:12 - *** Testing started for TC_L1 ***
+2025-10-08 20:27:02 INFO  TC_L1:18 - *** Verification for correct login credential ***
+2025-10-08 20:27:02 INFO  TC_L1:23 - *** Testing Completed for TC_L1 ***
+2025-10-08 20:27:04 INFO  TC_L2:13 - *** Starting testing for TC_L2 ***
+2025-10-08 20:27:06 INFO  TC_L2:19 - *** Verification for TC_L2 ***
+2025-10-08 20:27:06 INFO  TC_L2:24 - *** Finished testing for TC_L2 ***
+2025-10-08 20:27:07 INFO  TC_L3:13 - *** Starting Testing for TC_L3 ***
+2025-10-08 20:27:08 INFO  TC_L3:19 - *** Verfiying for TC_L3 ***
+2025-10-08 20:27:08 INFO  TC_L3:24 - *** Finished Testing for TC_L3 ***
+2025-10-08 20:27:10 INFO  TC_L4:13 - *** Strting Testin for TC_L4 ***
+2025-10-08 20:27:10 INFO  TC_L4:17 - *** Verification for TC_L4 ***
+2025-10-08 20:27:10 INFO  TC_L4:22 - *** Completed Testin for TC_L4 ***
+2025-10-08 20:27:12 INFO  TC_P1:14 - *** Starting Testing for TC_P1 ***
+2025-10-08 20:27:13 INFO  TC_P1:21 - *** Checking all products displayed for TC_P1 ***
+2025-10-08 20:27:14 INFO  TC_P1:27 - *** Completed Testing for TC_P1 ***
+2025-10-08 20:27:16 INFO  TC_P2:14 - *** Starting Test Case: TC_P2 (A to Z Sorting) ***
+2025-10-08 20:27:16 INFO  TC_P2:21 - Login successful with user: standard_user
+2025-10-08 20:27:16 INFO  TC_P2:24 - Verifying functionality for TC_P2: A to Z Sorting
+2025-10-08 20:27:17 INFO  TC_P2:27 - A to Z sorting verification completed successfully.
+2025-10-08 20:27:17 INFO  TC_P2:29 - *** Test Case: TC_P2 PASSED ***
+2025-10-08 20:27:17 INFO  TC_P2:35 - *** Ending Test Case: TC_P2 ***
+2025-10-08 20:27:18 INFO  TC_P3:13 - *** Starting Test Case : TC_P3 (Low to High Price Sorting) ***
+2025-10-08 20:27:19 INFO  TC_P3:20 - Login successful with user: standard_user
+2025-10-08 20:27:19 INFO  TC_P3:23 - Verifying functionality for TC_P3: Price Low to High Sorting
+2025-10-08 20:27:19 INFO  TC_P3:26 - Price Low to High sorting verification completed Successfully
+2025-10-08 20:27:19 INFO  TC_P3:28 - *** Test Case: TC_P3 Passed ***
+2025-10-08 20:27:19 INFO  TC_P3:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:27:21 INFO  TC_P4:13 - *** Starting Test Case: TC_P4 (Verify Product details navigation) ***
+2025-10-08 20:27:21 INFO  TC_P4:20 - Login successful with user: standard_user
+2025-10-08 20:27:21 INFO  TC_P4:23 - Verify functionality for TC_P4: Product details are displayed Right
+2025-10-08 20:27:22 INFO  TC_P4:26 - Product details displayed correctly
+2025-10-08 20:27:22 INFO  TC_P4:28 - *** Test Case: TC_P4 Passed ***
+2025-10-08 20:27:22 INFO  TC_P4:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:27:24 INFO  TC_C1:13 - *** Starting Test Case: TC_C1 (Verify adding a product to cart ***
+2025-10-08 20:27:24 INFO  TC_C1:20 - Login Successful with user: standard_user
+2025-10-08 20:27:24 INFO  TC_C1:23 - verify functionality for TC_C1: Verify addng a product to cart
+2025-10-08 20:27:25 INFO  TC_C1:27 - Cart count displayed correctly
+2025-10-08 20:27:25 INFO  TC_C1:28 - *** Test Case: TC_C1 Passed ***
+2025-10-08 20:27:25 INFO  TC_C1:34 - *** Ending Test Case: TC_C1 ***
+2025-10-08 20:27:26 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
+2025-10-08 20:27:27 INFO  TC_C2:21 - Login successful with user: standard_user
+2025-10-08 20:27:27 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
+2025-10-08 20:27:28 INFO  TC_C2:29 - Removing Product SuccessFull
+2025-10-08 20:27:28 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
+2025-10-08 20:27:28 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
+2025-10-08 20:27:30 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 Verify adding Multiple product to cart ***
+2025-10-08 20:27:30 INFO  TC_C3:20 - Login Successful with user: standard_user
+2025-10-08 20:27:30 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
+2025-10-08 20:27:31 INFO  TC_C3:27 - Cart count displayed correctly
+2025-10-08 20:27:31 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
+2025-10-08 20:27:31 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***
+2025-10-08 20:27:32 INFO  TC_C4:13 - *** Starting Test Case: TC_C4 Verify Cart Page display Items Correctly ***
+2025-10-08 20:27:33 INFO  TC_C4:20 - Login Successful with user: standard_user
+2025-10-08 20:27:33 INFO  TC_C4:23 - verify functionality for TC_C4: Verify adding Multiple product to cart
+2025-10-08 20:27:33 INFO  TC_C4:28 - Cart displayed all product correctly
+2025-10-08 20:27:33 INFO  TC_C4:29 - *** Test Case: TC_C4 Passed ***
+2025-10-08 20:27:33 INFO  TC_C4:35 - *** Ending Test Case: TC_C4 ***
+2025-10-08 20:27:34 INFO  TC_CH1:14 - *** Starting Test Case: TC_CH1 Verify CheckOut with Valid details ***
+2025-10-08 20:27:35 INFO  TC_CH1:21 - Login Successful with user: standard_user
+2025-10-08 20:27:35 INFO  TC_CH1:24 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:27:37 INFO  TC_CH1:33 - verify functionality for TC_CH1: Verifying order summary page displayed
+2025-10-08 20:27:37 INFO  TC_CH1:36 - Order Summary page displayed
+2025-10-08 20:27:37 INFO  TC_CH1:37 - *** Test Case: TC_CH1 Passed ***
+2025-10-08 20:27:37 INFO  TC_CH1:43 - *** Ending Test Case: TC_CH1 ***
+2025-10-08 20:27:39 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-08 20:27:40 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-08 20:27:40 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:27:40 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-08 20:27:41 INFO  TC_CH2:37 - *** Test Case: TC_CH2 Passed ***
+2025-10-08 20:27:41 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***
+2025-10-08 20:27:43 INFO  TC_CH3:15 - *** Starting Test Case: TC_CH3 Verify Order Summary ***
+2025-10-08 20:27:43 INFO  TC_CH3:22 - Login Successful with user: standard_user
+2025-10-08 20:27:43 INFO  TC_CH3:25 - verify functionality for TC_CH3: Adding Multiple product to cart
+2025-10-08 20:27:44 INFO  TC_CH3:30 - verify functionality for TC_CH3: Verifying Summary
+2025-10-08 20:27:45 INFO  TC_CH3:36 - *** Test Case: TC_CH3 Passed ***
+2025-10-08 20:27:45 INFO  TC_CH3:42 - *** Ending Test Case: TC_CH3 ***
+2025-10-08 20:27:47 INFO  TC_CH4:15 - *** Starting Test Case: TC_CH4 Verify Successful Order Completion***
+2025-10-08 20:27:48 INFO  TC_CH4:22 - Login Successful with user: standard_user
+2025-10-08 20:27:48 INFO  TC_CH4:25 - verify functionality for TC_CH4: Adding Multiple product to cart
+2025-10-08 20:27:49 INFO  TC_CH4:30 - verify functionality for TC_CH4: Verifying Successful Order Message
+2025-10-08 20:27:50 INFO  TC_CH4:36 - *** Test Case: TC_CH Passed ***
+2025-10-08 20:27:50 INFO  TC_CH4:42 - *** Ending Test Case: TC_CH4 ***
+2025-10-08 20:27:51 INFO  TC_O1:14 - *** Starting Test Case: TC_O1 Verify User can Logout ***
+2025-10-08 20:27:51 INFO  TC_O1:21 - Login Successful with user: standard_user
+2025-10-08 20:27:51 INFO  TC_O1:24 - verify functionality for TC_O1: Pressing Logout Button
+2025-10-08 20:27:52 INFO  TC_O1:29 - verify functionality for TC_O1: Verifying user Loged Out successfully 
+2025-10-08 20:27:52 INFO  TC_O1:32 - *** Test Case: TC_O1 Passed ***
+2025-10-08 20:27:52 INFO  TC_O1:38 - *** Ending Test Case: TC_O1 ***
+2025-10-08 20:27:53 INFO  TC_O2:14 - *** Starting Test Case: TC_O2 Verify Session after  Logout ***
+2025-10-08 20:27:53 INFO  TC_O2:21 - Login Successful with user: standard_user
+2025-10-08 20:27:53 INFO  TC_O2:23 - verify functionality for TC_O2: Pressing Logout Button
+2025-10-08 20:27:54 INFO  TC_O2:29 - verify functionality for TC_O2: Verifying session after logout
+2025-10-08 20:27:54 INFO  TC_O2:32 - *** Test Case: TC_O2 Passed ***
+2025-10-08 20:27:54 INFO  TC_O2:38 - *** Ending Test Case: TC_O2 ***
+2025-10-08 20:28:01 INFO  TC_L1:12 - *** Testing started for TC_L1 ***
+2025-10-08 20:28:03 INFO  TC_L1:18 - *** Verification for correct login credential ***
+2025-10-08 20:28:03 INFO  TC_L1:23 - *** Testing Completed for TC_L1 ***
+2025-10-08 20:28:09 INFO  TC_L2:13 - *** Starting testing for TC_L2 ***
+2025-10-08 20:28:09 INFO  TC_L2:19 - *** Verification for TC_L2 ***
+2025-10-08 20:28:09 INFO  TC_L2:24 - *** Finished testing for TC_L2 ***
+2025-10-08 20:28:18 INFO  TC_L3:13 - *** Starting Testing for TC_L3 ***
+2025-10-08 20:28:18 INFO  TC_L3:19 - *** Verfiying for TC_L3 ***
+2025-10-08 20:28:18 INFO  TC_L3:24 - *** Finished Testing for TC_L3 ***
+2025-10-08 20:28:23 INFO  TC_L4:13 - *** Strting Testin for TC_L4 ***
+2025-10-08 20:28:23 INFO  TC_L4:17 - *** Verification for TC_L4 ***
+2025-10-08 20:28:23 INFO  TC_L4:22 - *** Completed Testin for TC_L4 ***
+2025-10-08 20:28:28 INFO  TC_P1:14 - *** Starting Testing for TC_P1 ***
+2025-10-08 20:28:29 INFO  TC_P1:21 - *** Checking all products displayed for TC_P1 ***
+2025-10-08 20:28:30 INFO  TC_P1:27 - *** Completed Testing for TC_P1 ***
+2025-10-08 20:28:34 INFO  TC_P2:14 - *** Starting Test Case: TC_P2 (A to Z Sorting) ***
+2025-10-08 20:28:35 INFO  TC_P2:21 - Login successful with user: standard_user
+2025-10-08 20:28:35 INFO  TC_P2:24 - Verifying functionality for TC_P2: A to Z Sorting
+2025-10-08 20:28:35 INFO  TC_P2:27 - A to Z sorting verification completed successfully.
+2025-10-08 20:28:35 INFO  TC_P2:29 - *** Test Case: TC_P2 PASSED ***
+2025-10-08 20:28:35 INFO  TC_P2:35 - *** Ending Test Case: TC_P2 ***
+2025-10-08 20:28:40 INFO  TC_P3:13 - *** Starting Test Case : TC_P3 (Low to High Price Sorting) ***
+2025-10-08 20:28:40 INFO  TC_P3:20 - Login successful with user: standard_user
+2025-10-08 20:28:40 INFO  TC_P3:23 - Verifying functionality for TC_P3: Price Low to High Sorting
+2025-10-08 20:28:41 INFO  TC_P3:26 - Price Low to High sorting verification completed Successfully
+2025-10-08 20:28:41 INFO  TC_P3:28 - *** Test Case: TC_P3 Passed ***
+2025-10-08 20:28:41 INFO  TC_P3:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:28:46 INFO  TC_P4:13 - *** Starting Test Case: TC_P4 (Verify Product details navigation) ***
+2025-10-08 20:28:46 INFO  TC_P4:20 - Login successful with user: standard_user
+2025-10-08 20:28:46 INFO  TC_P4:23 - Verify functionality for TC_P4: Product details are displayed Right
+2025-10-08 20:28:47 INFO  TC_P4:26 - Product details displayed correctly
+2025-10-08 20:28:47 INFO  TC_P4:28 - *** Test Case: TC_P4 Passed ***
+2025-10-08 20:28:47 INFO  TC_P4:34 - *** Ending Test Case: TC_P3 ***
+2025-10-08 20:28:51 INFO  TC_C1:13 - *** Starting Test Case: TC_C1 (Verify adding a product to cart ***
+2025-10-08 20:28:52 INFO  TC_C1:20 - Login Successful with user: standard_user
+2025-10-08 20:28:52 INFO  TC_C1:23 - verify functionality for TC_C1: Verify addng a product to cart
+2025-10-08 20:28:52 INFO  TC_C1:27 - Cart count displayed correctly
+2025-10-08 20:28:52 INFO  TC_C1:28 - *** Test Case: TC_C1 Passed ***
+2025-10-08 20:28:52 INFO  TC_C1:34 - *** Ending Test Case: TC_C1 ***
+2025-10-08 20:28:57 INFO  TC_C2:14 - *** Starting Test Case: TC_C2 Verify Removing Product from Cart ***
+2025-10-08 20:28:57 INFO  TC_C2:21 - Login successful with user: standard_user
+2025-10-08 20:28:57 INFO  TC_C2:24 - Verify functionality for TC_C2: Removing a product from cart
+2025-10-08 20:28:58 INFO  TC_C2:29 - Removing Product SuccessFull
+2025-10-08 20:28:58 INFO  TC_C2:30 - *** Test Case: TC_C2 Passed ***
+2025-10-08 20:28:58 INFO  TC_C2:36 - *** Ending Test Case: TC_C2 ***
+2025-10-08 20:29:03 INFO  TC_C3:13 - *** Starting Test Case: TC_C3 Verify adding Multiple product to cart ***
+2025-10-08 20:29:04 INFO  TC_C3:20 - Login Successful with user: standard_user
+2025-10-08 20:29:04 INFO  TC_C3:23 - verify functionality for TC_C3: Verify adding Multiple product to cart
+2025-10-08 20:29:04 INFO  TC_C3:27 - Cart count displayed correctly
+2025-10-08 20:29:04 INFO  TC_C3:28 - *** Test Case: TC_C3 Passed ***
+2025-10-08 20:29:04 INFO  TC_C3:34 - *** Ending Test Case: TC_C3 ***
+2025-10-08 20:29:09 INFO  TC_C4:13 - *** Starting Test Case: TC_C4 Verify Cart Page display Items Correctly ***
+2025-10-08 20:29:10 INFO  TC_C4:20 - Login Successful with user: standard_user
+2025-10-08 20:29:10 INFO  TC_C4:23 - verify functionality for TC_C4: Verify adding Multiple product to cart
+2025-10-08 20:29:10 INFO  TC_C4:28 - Cart displayed all product correctly
+2025-10-08 20:29:10 INFO  TC_C4:29 - *** Test Case: TC_C4 Passed ***
+2025-10-08 20:29:10 INFO  TC_C4:35 - *** Ending Test Case: TC_C4 ***
+2025-10-08 20:29:16 INFO  TC_CH1:14 - *** Starting Test Case: TC_CH1 Verify CheckOut with Valid details ***
+2025-10-08 20:29:16 INFO  TC_CH1:21 - Login Successful with user: standard_user
+2025-10-08 20:29:16 INFO  TC_CH1:24 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:29:17 INFO  TC_CH1:33 - verify functionality for TC_CH1: Verifying order summary page displayed
+2025-10-08 20:29:17 INFO  TC_CH1:36 - Order Summary page displayed
+2025-10-08 20:29:17 INFO  TC_CH1:37 - *** Test Case: TC_CH1 Passed ***
+2025-10-08 20:29:17 INFO  TC_CH1:43 - *** Ending Test Case: TC_CH1 ***
+2025-10-08 20:29:22 INFO  TC_CH2:15 - *** Starting Test Case: TC_CH2 Verify CheckOut with First Name Blank***
+2025-10-08 20:29:22 INFO  TC_CH2:22 - Login Successful with user: standard_user
+2025-10-08 20:29:22 INFO  TC_CH2:25 - verify functionality for TC_CH1: Adding Multiple product to cart
+2025-10-08 20:29:23 INFO  TC_CH2:30 - verify functionality for TC_CH1: Verifying Error for Empty Field
+2025-10-08 20:29:23 INFO  TC_CH2:37 - *** Test Case: TC_CH2 Passed ***
+2025-10-08 20:29:23 INFO  TC_CH2:43 - *** Ending Test Case: TC_CH2 ***
+2025-10-08 20:29:28 INFO  TC_CH3:15 - *** Starting Test Case: TC_CH3 Verify Order Summary ***
+2025-10-08 20:29:28 INFO  TC_CH3:22 - Login Successful with user: standard_user
+2025-10-08 20:29:28 INFO  TC_CH3:25 - verify functionality for TC_CH3: Adding Multiple product to cart
+2025-10-08 20:29:29 INFO  TC_CH3:30 - verify functionality for TC_CH3: Verifying Summary
+2025-10-08 20:29:30 INFO  TC_CH3:36 - *** Test Case: TC_CH3 Passed ***
+2025-10-08 20:29:30 INFO  TC_CH3:42 - *** Ending Test Case: TC_CH3 ***
+2025-10-08 20:29:34 INFO  TC_CH4:15 - *** Starting Test Case: TC_CH4 Verify Successful Order Completion***
+2025-10-08 20:29:35 INFO  TC_CH4:22 - Login Successful with user: standard_user
+2025-10-08 20:29:35 INFO  TC_CH4:25 - verify functionality for TC_CH4: Adding Multiple product to cart
+2025-10-08 20:29:35 INFO  TC_CH4:30 - verify functionality for TC_CH4: Verifying Successful Order Message
+2025-10-08 20:29:36 INFO  TC_CH4:36 - *** Test Case: TC_CH Passed ***
+2025-10-08 20:29:36 INFO  TC_CH4:42 - *** Ending Test Case: TC_CH4 ***
+2025-10-08 20:29:40 INFO  TC_O1:14 - *** Starting Test Case: TC_O1 Verify User can Logout ***
+2025-10-08 20:29:40 INFO  TC_O1:21 - Login Successful with user: standard_user
+2025-10-08 20:29:40 INFO  TC_O1:24 - verify functionality for TC_O1: Pressing Logout Button
+2025-10-08 20:29:40 INFO  TC_O1:29 - verify functionality for TC_O1: Verifying user Loged Out successfully 
+2025-10-08 20:29:40 INFO  TC_O1:32 - *** Test Case: TC_O1 Passed ***
+2025-10-08 20:29:40 INFO  TC_O1:38 - *** Ending Test Case: TC_O1 ***
+2025-10-08 20:29:44 INFO  TC_O2:14 - *** Starting Test Case: TC_O2 Verify Session after  Logout ***
+2025-10-08 20:29:45 INFO  TC_O2:21 - Login Successful with user: standard_user
+2025-10-08 20:29:45 INFO  TC_O2:23 - verify functionality for TC_O2: Pressing Logout Button
+2025-10-08 20:29:45 INFO  TC_O2:29 - verify functionality for TC_O2: Verifying session after logout
+2025-10-08 20:29:45 INFO  TC_O2:32 - *** Test Case: TC_O2 Passed ***
+2025-10-08 20:29:45 INFO  TC_O2:38 - *** Ending Test Case: TC_O2 ***

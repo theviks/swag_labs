@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  firefoxTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>firefoxTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 08 20:27:55 EDT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>110 seconds (110733 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_CH3.verifyOrderSummary()'><b>verifyOrderSummary</b><br>Test class: testCases.TC_CH3</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_CH3@37883b97</td></tr>
+<tr>
+<td title='testCases.TC_O2.verifySessionAfterLogout()'><b>verifySessionAfterLogout</b><br>Test class: testCases.TC_O2</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_O2@77f80c04</td></tr>
+<tr>
+<td title='testCases.TC_P2.aToZsorting()'><b>aToZsorting</b><br>Test class: testCases.TC_P2</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_P2@e4487af</td></tr>
+<tr>
+<td title='testCases.TC_L1.login()'><b>login</b><br>Test class: testCases.TC_L1</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_L1@445b295b</td></tr>
+<tr>
+<td title='testCases.TC_CH4.verifySuccessfulOrderCompletion()'><b>verifySuccessfulOrderCompletion</b><br>Test class: testCases.TC_CH4</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_CH4@6ab778a</td></tr>
+<tr>
+<td title='testCases.TC_C1.verifyCartCount()'><b>verifyCartCount</b><br>Test class: testCases.TC_C1</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_C1@10aa41f2</td></tr>
+<tr>
+<td title='testCases.TC_CH1.verifyCheckOut()'><b>verifyCheckOut</b><br>Test class: testCases.TC_CH1</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_CH1@4c309d4d</td></tr>
+<tr>
+<td title='testCases.TC_L4.emptyField()'><b>emptyField</b><br>Test class: testCases.TC_L4</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_L4@757277dc</td></tr>
+<tr>
+<td title='testCases.TC_P1.prodctListVerification()'><b>prodctListVerification</b><br>Test class: testCases.TC_P1</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_P1@687e99d8</td></tr>
+<tr>
+<td title='testCases.TC_P4.verifyProduct()'><b>verifyProduct</b><br>Test class: testCases.TC_P4</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_P4@c86b9e3</td></tr>
+<tr>
+<td title='testCases.TC_O1.veifyUserLogout()'><b>veifyUserLogout</b><br>Test class: testCases.TC_O1</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_O1@4e3958e7</td></tr>
+<tr>
+<td title='testCases.TC_L3.loginWithLockedUser()'><b>loginWithLockedUser</b><br>Test class: testCases.TC_L3</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_L3@5c671d7f</td></tr>
+<tr>
+<td title='testCases.TC_P3.lowToHighPriceSorting()'><b>lowToHighPriceSorting</b><br>Test class: testCases.TC_P3</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_P3@6aaceffd</td></tr>
+<tr>
+<td title='testCases.TC_CH2.verifyMandatoryField()'><b>verifyMandatoryField</b><br>Test class: testCases.TC_CH2</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_CH2@38102d01</td></tr>
+<tr>
+<td title='testCases.TC_L2.loginWithInvalidPassword()'><b>loginWithInvalidPassword</b><br>Test class: testCases.TC_L2</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_L2@49e5f737</td></tr>
+<tr>
+<td title='testCases.TC_C3.verifyAddingMultipleProduct()'><b>verifyAddingMultipleProduct</b><br>Test class: testCases.TC_C3</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_C3@37271612</td></tr>
+<tr>
+<td title='testCases.TC_C2.verifyRemovingProduct()'><b>verifyRemovingProduct</b><br>Test class: testCases.TC_C2</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_C2@3af9c5b7</td></tr>
+<tr>
+<td title='testCases.TC_C4.verifyCartDetails()'><b>verifyCartDetails</b><br>Test class: testCases.TC_C4</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_C4@ed7f8b4</td></tr>
+</table><p>
+</body>
+</html>
